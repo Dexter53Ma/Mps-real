@@ -30,9 +30,7 @@ export default function AboutExpertManagement() {
           </div>
 
           <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/about-mps/"
             className="inline-flex items-center gap-[8px] text-[#FBEFDD] text-[13px] md:text-[14px] font-[family-name:var(--font-gt-walsheim-prolight)] no-underline hover:opacity-70 transition-opacity group"
           >
             <span className="group-hover:translate-x-1 transition-transform">→</span>

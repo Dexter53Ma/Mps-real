@@ -10,6 +10,7 @@ import AboutLocations from "@/components/about/AboutLocations";
 import AboutGallery from "@/components/about/AboutGallery";
 import AboutLandmarkBuildings from "@/components/about/AboutLandmarkBuildings";
 import AboutMpsSpecial from "@/components/about/AboutMpsSpecial";
+import AboutTeam from "@/components/about/AboutTeam";
 import AboutExpertManagement from "@/components/about/AboutExpertManagement";
 import AboutSustainability from "@/components/about/AboutSustainability";
 import AboutTestimonials from "@/components/about/AboutTestimonials";
@@ -44,6 +45,19 @@ export default function AboutMpsPage() {
           url: "https://www.marrakechpropertyservice.com",
         },
       }} />
+      <JsonLdScript schema={{
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "MPS Leadership Team",
+        jobTitle: "Founding Team",
+        description: "Over 15 years of combined experience in luxury hospitality and property management across Morocco and Europe.",
+        worksFor: {
+          "@type": "Organization",
+          name: "Marrakech Property Service",
+          url: "https://www.marrakechpropertyservice.com",
+        },
+        knowsAbout: ["Property Management", "Short-Term Rentals", "Airbnb Optimization", "Marrakech Real Estate"],
+      }} />
       <Header />
       <main>
         <AboutHero />
@@ -53,6 +67,7 @@ export default function AboutMpsPage() {
         <AboutGallery />
         <AboutLandmarkBuildings />
         <AboutMpsSpecial />
+        <AboutTeam />
         <AboutExpertManagement />
         <AboutSustainability />
         <AboutTestimonials />

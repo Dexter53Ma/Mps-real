@@ -46,28 +46,33 @@ export default function LocationsPage() {
               {[
                 {
                   name: "Palmeraie",
-                  description: "Exclusive resort area with luxury villas and world-class amenities. The Palmeraie is one of Marrakech&apos;s most prestigious neighborhoods, offering expansive properties with private pools, lush gardens, and stunning Atlas Mountain views. Perfect for those seeking privacy and tranquility.",
+                  slug: "palmeraie",
+                  description: "Exclusive resort area with luxury villas and world-class amenities. The Palmeraie is one of Marrakech's most prestigious neighborhoods, offering expansive properties with private pools, lush gardens, and stunning Atlas Mountain views. Perfect for those seeking privacy and tranquility.",
                   properties: "15+ properties",
                 },
                 {
                   name: "Medina",
+                  slug: "medina",
                   description: "Historic heart of Marrakech with traditional riads and authentic charm. The UNESCO-listed Medina features narrow winding streets, bustling souks, and beautifully restored riads with interior courtyards. Immerse yourself in Moroccan culture while staying in a piece of living history.",
                   properties: "12+ properties",
                 },
                 {
                   name: "Hivernage",
-                  description: "Modern luxury district with contemporary apartments and premium facilities. Hivernage is Marrakech&apos;s upscale modern quarter, home to five-star hotels, fine dining restaurants, and sleek residential complexes. Ideal for the modern lifestyle with easy access to the Medina.",
+                  slug: "hivernage",
+                  description: "Modern luxury district with contemporary apartments and premium facilities. Hivernage is Marrakech's upscale modern quarter, home to five-star hotels, fine dining restaurants, and sleek residential complexes. Ideal for the modern lifestyle with easy access to the Medina.",
                   properties: "10+ properties",
                 },
                 {
                   name: "Guéliz",
-                  description: "Modern Marrakech with easy access to shops, restaurants and cultural attractions. Guéliz is the city&apos;s vibrant new town, offering a cosmopolitan lifestyle with tree-lined boulevards, art galleries, and a thriving café culture. Perfect for urban living.",
+                  slug: "gueliz",
+                  description: "Modern Marrakech with easy access to shops, restaurants and cultural attractions. Guéliz is the city's vibrant new town, offering a cosmopolitan lifestyle with tree-lined boulevards, art galleries, and a thriving café culture. Perfect for urban living.",
                   properties: "8+ properties",
                 },
               ].map((location) => (
-                <div
+                <a
                   key={location.name}
-                  className="bg-[#FBEFDD] rounded-[9px] p-[32px] md:p-[40px] hover:bg-[#F5D6AB] transition-colors"
+                  href={`/locations/${location.slug}/`}
+                  className="block bg-[#FBEFDD] rounded-[9px] p-[32px] md:p-[40px] hover:bg-[#F5D6AB] transition-colors no-underline"
                 >
                   <h3 className="text-[28px] md:text-[32px] font-medium text-[#1A171A] mb-[12px]">
                     {location.name}
@@ -78,7 +83,7 @@ export default function LocationsPage() {
                   <p className="text-[14px] text-[#1A171A]/60 uppercase tracking-[0.1em]">
                     {location.properties}
                   </p>
-                </div>
+                </a>
               ))}
             </div>
           </div>
