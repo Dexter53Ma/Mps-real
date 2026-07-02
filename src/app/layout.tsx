@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { BackToTop, WhatsAppButton } from "@/components/FloatingButtons";
 import "./globals.css";
 
 const inter = Inter({
@@ -35,7 +36,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${jakarta.variable} h-full`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <BackToTop />
+        <WhatsAppButton />
+      </body>
     </html>
   );
 }
