@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { MapMarkerIcon } from "@/components/icons";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
@@ -64,7 +65,7 @@ export default function LocationSection() {
         </div>
 
         <div className="relative mt-10 rounded-xl overflow-hidden">
-          <img
+          <Image
             src="/images/locations/Map5-2.png"
             alt="Map of managed properties in Marrakech"
             width={1200}
@@ -83,9 +84,11 @@ export default function LocationSection() {
               </button>
               {activeLocation === i && (
                 <div className="absolute bg-white rounded-xl shadow-2xl w-[200px] sm:w-[260px] z-20 -top-[180px] sm:-top-[200px] left-1/2 -translate-x-1/2 overflow-hidden">
-                  <img
+                  <Image
                     src={popupImages[i]}
                     alt={locations[i].name}
+                    width={260}
+                    height={160}
                     className="w-full h-[120px] sm:h-[160px] object-cover"
                   />
                   <div className="p-3 sm:p-4">
@@ -102,7 +105,7 @@ export default function LocationSection() {
           href="/enquire/"
           className="mt-10 bg-[#1A171A] rounded-xl p-6 md:p-8 flex flex-col md:flex-row items-center gap-6 no-underline hover:bg-[#2a2529] transition-colors group"
         >
-          <img
+          <Image
             src="/images/locations/20230905-Regents-Place_1-Triton-Square5-copy-scaled-1.jpg"
             alt="Managed property"
             width={160}

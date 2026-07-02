@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import ManagePropertyModal from "./ManagePropertyModal";
 
 /* ─── Icons ─────────────────────────────────────────────────────────── */
@@ -90,9 +91,11 @@ function ChevronRight({ className }: { className?: string }) {
 
 function MPSLogo({ className }: { className?: string }) {
   return (
-    <img
+    <Image
       src="/images/logo.png"
       alt="Marrakech Property Service"
+      width={200}
+      height={80}
       className={`h-[80px] md:h-[100px] w-auto object-contain ${className ?? ""}`}
     />
   );
@@ -447,7 +450,7 @@ export default function Header() {
                       href={data.featured.href}
                       className="group block relative rounded-[12px] overflow-hidden h-[280px] no-underline"
                     >
-            <img
+            <Image
               src={data.featured.image}
               alt={data.featured.title}
               width={320}
@@ -475,9 +478,11 @@ export default function Header() {
                       href={item.extraFeatured.href}
                       className="group block relative rounded-[12px] overflow-hidden h-[280px] no-underline"
                     >
-                      <img
+                      <Image
                         src={item.extraFeatured.image}
                         alt={item.extraFeatured.title}
+                        width={320}
+                        height={280}
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />

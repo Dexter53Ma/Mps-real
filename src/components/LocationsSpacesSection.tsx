@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const spaces = [
@@ -44,7 +45,7 @@ export default function LocationsSpacesSection() {
               className="group flex flex-col md:flex-row items-stretch border-b border-gray-200 last:border-b-0 no-underline"
             >
               <div className="w-full md:w-[500px] h-[300px] overflow-hidden flex-shrink-0">
-                <img
+                <Image
                   src={space.image}
                   alt={space.name}
                   width={500}

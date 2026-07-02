@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 export default function AboutGallery() {
@@ -13,13 +14,13 @@ export default function AboutGallery() {
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-[12px] md:gap-[16px]">
           <div className="rounded-[8px] md:rounded-[12px] overflow-hidden aspect-[4/3]">
-            <img src="/images/gallery/727680946_17918238813393261_7302752434960266297_n.jpg" alt="Gallery" className="w-full h-full object-cover" />
+            <Image src="/images/gallery/727680946_17918238813393261_7302752434960266297_n.jpg" alt="Gallery" width={600} height={450} className="w-full h-full object-cover" />
           </div>
           <div className="rounded-[8px] md:rounded-[12px] overflow-hidden aspect-[4/3]">
-            <img src="/images/gallery/723256853_17917386006393261_1045073267955173653_n (1).jpg" alt="Gallery" className="w-full h-full object-cover" />
+            <Image src="/images/gallery/723256853_17917386006393261_1045073267955173653_n (1).jpg" alt="Gallery" width={600} height={450} className="w-full h-full object-cover" />
           </div>
           <div className="rounded-[8px] md:rounded-[12px] overflow-hidden aspect-[4/3] col-span-2 md:col-span-1">
-            <img src="/images/gallery/735393725_17920253277393261_5794717972720120506_n.jpg" alt="Gallery" className="w-full h-full object-cover" />
+            <Image src="/images/gallery/735393725_17920253277393261_5794717972720120506_n.jpg" alt="Gallery" width={600} height={450} className="w-full h-full object-cover" />
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 function PhoneIcon({ className }: { className?: string }) {
@@ -32,7 +33,7 @@ export default function ContactCTA() {
 
   return (
     <section className="relative bg-[#274038] text-white overflow-hidden">
-      <img
+      <Image
         src="/images/logo.png"
         alt=""
         width={400}

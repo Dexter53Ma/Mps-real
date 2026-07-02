@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRightIcon } from "@/components/icons";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
@@ -47,7 +48,7 @@ export default function IntroSection() {
           ref={imageRef}
           className={`relative max-w-[500px] md:max-w-[600px] w-full reveal-right ${imageRevealed ? 'revealed' : ''}`}
         >
-          <img
+          <Image
             src="/images/intro/20250106_PaddingtonCentral_StoreyClub_4KingdomStreet_008-1-scaled-1.jpg"
             alt="Luxury managed villa in Marrakech"
             width={600}

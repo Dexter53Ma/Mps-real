@@ -2,6 +2,7 @@
 
 import { useScrollReveal, useScrollRevealGroup } from "@/hooks/useScrollReveal";
 import Link from "next/link";
+import Image from "next/image";
 
 interface PropertyCard {
   name: string;
@@ -179,9 +180,11 @@ function PropertyCard({ property, index }: { property: PropertyCard; index: numb
     >
       <Link href={property.link} className="block">
         <div className="relative h-[180px] sm:h-[200px] md:h-[220px] overflow-hidden">
-          <img
+          <Image
             src={property.image}
             alt={property.name}
+            width={400}
+            height={220}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
