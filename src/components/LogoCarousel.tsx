@@ -51,10 +51,8 @@ export default function LogoCarousel() {
           <div
             key={i}
             className="mx-12 flex items-center justify-center grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-300 text-[#1A171A]"
-            role="img"
-            aria-label={logo.name}
           >
-            <logo.Icon size={48} />
+            <logo.Icon size={48} aria-hidden="true" />
           </div>
         ))}
       </div>

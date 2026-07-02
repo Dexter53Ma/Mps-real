@@ -179,10 +179,10 @@ export default function Footer() {
             </div>
           </div>
           <div className="mt-[16px] flex flex-col md:flex-row justify-between items-start md:items-center gap-[12px]">
-            <p className="text-[11px] text-white/40 font-[family-name:var(--font-gt-walsheim-prolight)] leading-[1.5]">
+            <p className="text-[11px] text-white/60 font-[family-name:var(--font-gt-walsheim-prolight)] leading-[1.5]">
               Marrakech Property Service. Registered in Morocco. All rights reserved.
             </p>
-            <p className="text-[11px] text-white/40 font-[family-name:var(--font-gt-walsheim-prolight)]">
+            <p className="text-[11px] text-white/60 font-[family-name:var(--font-gt-walsheim-prolight)]">
               Made by <span className="font-[family-name:var(--font-gt-walsheim-medium)]">MPS</span>
             </p>
           </div>

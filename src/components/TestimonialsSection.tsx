@@ -145,11 +145,13 @@ export default function TestimonialsSection() {
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className={`w-2 h-2 rounded-full bg-[#4F0003] transition-all duration-300 ${
-                currentSlide === index ? "opacity-100 scale-125" : "opacity-30 hover:opacity-50"
+              className={`w-11 h-11 rounded-full flex items-center justify-center transition-all duration-300 ${
+                currentSlide === index ? "opacity-100" : "opacity-30 hover:opacity-50"
               }`}
               aria-label={`Go to testimonial ${index + 1}`}
-            />
+            >
+              <span className={`block w-2 h-2 rounded-full bg-[#4F0003] transition-all duration-300 ${currentSlide === index ? "scale-125" : ""}`} />
+            </button>
           ))}
         </div>
       </div>
