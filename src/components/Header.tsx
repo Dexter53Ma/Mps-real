@@ -395,6 +395,7 @@ export default function Header() {
           return (
             <div
               key={item.label}
+              aria-hidden={activeMega !== idx}
               className={`hidden lg:block absolute left-0 right-0 top-full bg-white border-t border-gray-100 transition-all duration-300 ${
                 activeMega === idx
                   ? "opacity-100 visible translate-y-0"
@@ -416,9 +417,9 @@ export default function Header() {
                   {/* Content columns */}
                   {data.columns.map((col) => (
                     <div key={col.heading}>
-                      <h3 className="text-[13px] font-[family-name:var(--font-gt-walsheim-medium)] text-[#1A171A] uppercase tracking-wider mb-[16px]">
+                      <p className="text-[13px] font-[family-name:var(--font-gt-walsheim-medium)] text-[#1A171A] uppercase tracking-wider mb-[16px]">
                         {col.heading}
-                      </h3>
+                      </p>
                       {col.description && (
                         <p className="text-[13px] font-[family-name:var(--font-gt-walsheim-prolight)] text-[#1A171A]/60 mb-[16px] leading-relaxed max-w-[280px]">
                           {col.description}
@@ -461,9 +462,9 @@ export default function Header() {
                             {data.featured.subtitle}
                           </span>
                         )}
-                        <h4 className="text-[18px] font-[family-name:var(--font-gt-walsheim-medium)] text-white mt-[4px]">
+                        <p className="text-[18px] font-[family-name:var(--font-gt-walsheim-medium)] text-white mt-[4px]">
                           {data.featured.title}
-                        </h4>
+                        </p>
                       </div>
                     </Link>
                   )}
@@ -481,9 +482,9 @@ export default function Header() {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                       <div className="absolute bottom-[20px] left-[20px] right-[20px]">
-                        <h4 className="text-[18px] font-[family-name:var(--font-gt-walsheim-medium)] text-white">
+                        <p className="text-[18px] font-[family-name:var(--font-gt-walsheim-medium)] text-white">
                           {item.extraFeatured.title}
-                        </h4>
+                        </p>
                       </div>
                     </Link>
                   )}
