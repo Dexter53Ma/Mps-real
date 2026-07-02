@@ -1,30 +1,43 @@
 # Marrakech Property Service
-# Full-service property management for villas, riads, and apartments in Marrakech
 
-> Marrakech Property Service (MPS) is Marrakech's leading luxury property management company. We provide end-to-end management for short-term rentals on Airbnb, Booking.com, and direct bookings.
+> Marrakech Property Service (MPS) is Marrakech's leading luxury property management company. We provide end-to-end management for short-term rentals on Airbnb, Booking.com, and direct bookings for villas, riads, and apartments.
 
 ## Services
-- Property Management: Full-service management for villas, riads, and apartments
-- Airbnb Management: Listing optimization, guest communication, cleaning, maintenance
-- Concierge Services: Airport transfers, restaurant reservations, excursion bookings
-- Professional Photography: High-quality property photography for listings
-- Dynamic Pricing: Revenue optimization based on market demand
-- 24/7 Guest Support: Round-the-clock guest communication and assistance
+
+- [Property Management](https://www.marrakechpropertyservice.com/services/property-management/) - Full-service management for villas, riads, and apartments
+- [Airbnb Management](https://www.marrakechpropertyservice.com/services/airbnb-management/) - Listing optimization, guest communication, cleaning, maintenance
+- [Concierge Services](https://www.marrakechpropertyservice.com/services/concierge/) - Airport transfers, restaurant reservations, excursion bookings
+- [Professional Photography](https://www.marrakechpropertyservice.com/services/professional-photography/) - High-quality property photography for listings
+- [Dynamic Pricing](https://www.marrakechpropertyservice.com/services/dynamic-pricing/) - Revenue optimization based on market demand
+- [Cleaning & Maintenance](https://www.marrakechpropertyservice.com/services/cleaning-maintenance/) - Turnover cleaning, deep cleaning, property maintenance
 
 ## Locations
+
 We serve properties across Marrakech's most exclusive neighborhoods:
-- Palmeraie: Luxury villas and world-class amenities
-- Medina: Traditional riads and authentic charm
-- Hivernage: Modern luxury district
-- Guéliz: Contemporary urban living
+
+- [Palmeraie](https://www.marrakechpropertyservice.com/locations/palmeraie/) - Luxury villas and world-class amenities
+- [Medina](https://www.marrakechpropertyservice.com/locations/medina/) - Traditional riads and authentic charm
+- [Hivernage](https://www.marrakechpropertyservice.com/locations/hivernage/) - Modern luxury district
+- [Guéliz](https://www.marrakechpropertyservice.com/locations/gueliz/) - Contemporary urban living
+
+## Pages
+
+- [Home](https://www.marrakechpropertyservice.com/) - Main page with property listings and income calculator
+- [Properties](https://www.marrakechpropertyservice.com/properties/) - Browse managed properties across Marrakech
+- [About MPS](https://www.marrakechpropertyservice.com/about-mps/) - Our team, story, and property management approach
+- [Sustainability](https://www.marrakechpropertyservice.com/sustainability/) - Our commitment to sustainable property management
+- [FAQ](https://www.marrakechpropertyservice.com/frequently-asked-questions/) - Common questions about property management in Marrakech
+- [Contact](https://www.marrakechpropertyservice.com/contact-us/) - Get in touch with MPS
 
 ## Contact
+
 - Website: https://www.marrakechpropertyservice.com
 - Email: info@marrakechpropertyservice.com
 - Phone: +212 6 21 18 94 96
-- WhatsApp: +212 6 21 18 94 96
+- WhatsApp: https://wa.me/212621189496
 
 ## Social Media
+
 - Facebook: https://www.facebook.com/MarrakechPropertyService
 - Instagram: https://www.instagram.com/marrakechpropertyservice/
 - LinkedIn: https://www.linkedin.com/company/marrakech-property-service/
