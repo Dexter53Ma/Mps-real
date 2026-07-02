@@ -1,0 +1,561 @@
+- generic [active] [ref=f159e1]:
+  - banner [ref=f159e2]:
+    - link "#" [ref=f159e3] [cursor=pointer]:
+      - /url: https://storey.co.uk
+    - navigation [ref=f159e4]:
+      - generic [ref=f159e5]:
+        - heading "Workspaces" [level=6] [ref=f159e6] [cursor=pointer]:
+          - link "Workspaces" [ref=f159e7]:
+            - /url: /workspace/
+        - generic:
+          - generic:
+            - heading "Find workspace" [level=4]
+            - paragraph: With straightforward leases, and the freedom to add more space as you grow.
+            - generic:
+              - link "#":
+                - /url: /workspace/?view=list
+                - text: Latest Availability
+              - link "#":
+                - /url: /workspace/
+                - text: View all
+          - generic:
+            - heading "Browse by location" [level=4]
+            - link "#":
+              - /url: /workspace/?type-location=workspace&campus=norton-folgate&capacity_location=&sq_ft_location=
+              - text: Norton Folgate
+            - link "#":
+              - /url: https://storey.co.uk/workspace/?type_location=workspace&campus=broadgate&capacity_location=
+              - text: Broadgate
+            - link "#":
+              - /url: https://storey.co.uk/workspace/?type_location=workspace&campus=regent-s-place&capacity_location=
+              - text: Regent's Place
+            - link "#":
+              - /url: https://storey.co.uk/workspace/?type_location=workspace&campus=paddington-central&capacity_location=
+              - text: Paddington Central
+            - link "#":
+              - /url: /workspace/
+              - text: View All
+          - generic:
+            - heading "Browse by capacity" [level=4]
+            - link "#":
+              - /url: /workspace/?type-location=workspace&campus=&capacity_location=0-19&sq_ft_location=
+              - text: Up to 20
+            - link "#":
+              - /url: /workspace/?type-location=workspace&campus=&capacity_location=20-39&sq_ft_location=
+              - text: 20-40
+            - link "#":
+              - /url: /workspace/?type-location=workspace&campus=&capacity_location=50&sq_ft_location=
+              - text: 50+
+            - link "#":
+              - /url: /workspace/
+              - text: View All
+          - link "#":
+            - /url: https://storey.co.uk/workspace/1-triton-square/
+            - text: We're sorry, the image below is broken
+            - heading "1 Triton Square" [level=4]
+            - paragraph: Our latest Storey
+      - generic [ref=f159e8]:
+        - heading "Meeting & Event spaces" [level=6] [ref=f159e9] [cursor=pointer]:
+          - link "Meeting & Event spaces" [ref=f159e10]:
+            - /url: /meeting-and-events/
+        - generic:
+          - generic:
+            - heading "Book a space" [level=4]
+            - paragraph: Book beautifully designed meeting rooms and event spaces across our two Central London locations.
+            - generic:
+              - link "#":
+                - /url: /meeting-and-events/
+                - text: Book now
+          - generic:
+            - heading "Browse by location" [level=4]
+            - link "#":
+              - /url: /meeting-and-events/?type-location=meeting-space&meeting_space_location=broadgate-ec2&capacity_meeting_space=
+              - text: Broadgate
+            - link "#":
+              - /url: /meeting-and-events/?type-location=meeting-space&meeting_space_location=paddington-w2&capacity_meeting_space=
+              - text: Paddington Central
+            - link "#":
+              - /url: /meeting-and-events/
+              - text: View All
+          - generic:
+            - heading "Browse by capacity" [level=4]
+            - link "#":
+              - /url: /meeting-and-events/?type-location=meeting-space&meeting_space_location=&capacity_meeting_space=up-to-6
+              - text: Up to 6
+            - link "#":
+              - /url: /meeting-and-events/meeting-space/?type_location=meeting-space&meeting_space_location=&capacity_meeting_space=up-to-10
+              - text: Up to 10
+            - link "#":
+              - /url: /meeting-and-events/?type_location=meeting-space&meeting_space_location=&capacity_meeting_space=up-to-20
+              - text: Up to 20
+            - link "#":
+              - /url: /meeting-and-events/
+              - text: View All
+          - link "#":
+            - /url: https://storey.co.uk/meeting-and-events
+            - text: We're sorry, the image below is broken
+            - heading "View all spaces" [level=4]
+            - paragraph
+      - generic [ref=f159e11]:
+        - heading "About Storey" [level=6] [ref=f159e12] [cursor=pointer]:
+          - link "About Storey" [ref=f159e13]:
+            - /url: /why-storey
+        - generic:
+          - generic:
+            - heading "About Storey" [level=4]
+            - link "#":
+              - /url: /our-latest-storey/
+              - text: Our latest Storey
+            - link "#":
+              - /url: https://storey.co.uk/frequently-asked-questions/
+              - text: FAQs
+            - link "#":
+              - /url: https://storey.co.uk/sustainability/
+              - text: Sustainability
+          - link "#":
+            - /url: https://storey.co.uk/why-storey
+            - text: We're sorry, the image below is broken
+            - heading "Why Storey" [level=4]
+            - paragraph
+          - link "#":
+            - /url: https://storey.co.uk/storey-club/
+            - text: We're sorry, the image below is broken
+            - heading "Storey Club" [level=4]
+            - paragraph
+    - generic [ref=f159e14]:
+      - generic [ref=f159e15]:
+        - button "show accessibility tools" [ref=f159e16] [cursor=pointer]:
+          - img [ref=f159e17]
+        - button "Show cookies" [ref=f159e20] [cursor=pointer]:
+          - img [ref=f159e21]
+      - link "#" [ref=f159e23] [cursor=pointer]:
+        - /url: /contact-us/
+        - text: Get in touch
+      - link "#" [ref=f159e24] [cursor=pointer]:
+        - /url: /meeting-and-events
+        - text: Book meeting rooms
+  - text: We're sorry, the image below is broken We're sorry, the image below is broken We're sorry, the image below is broken
+  - main [ref=f159e25]:
+    - generic [ref=f159e27]:
+      - heading "Meeting & Event Spaces" [level=1] [ref=f159e29]
+      - paragraph [ref=f159e30]: Book beautifully designed meeting rooms and event spaces across our two Central London locations. Whether you’re hosting a one-to-one, a focused team session or a larger gathering, we have a space to suit you.
+    - generic [ref=f159e33]:
+      - generic [ref=f159e34]:
+        - img [ref=f159e37]
+        - generic [ref=f159e42]: We're sorry, the image below is broken
+        - img [ref=f159e45]
+      - generic [ref=f159e47]:
+        - generic [ref=f159e48]:
+          - heading "Flexible spaces" [level=2] [ref=f159e49]
+          - paragraph [ref=f159e50]: Whether you're planning a quick catch-up, a client presentation or a larger event, our flexible layouts make it easy to create the right setting without the hassle.
+        - generic [ref=f159e51]:
+          - heading "Our spaces include" [level=5] [ref=f159e52]
+          - generic [ref=f159e53]:
+            - generic [ref=f159e54]:
+              - generic [ref=f159e55]: We're sorry, the image below is broken
+              - paragraph [ref=f159e56]: Meeting rooms suited for 4-20 people
+            - generic [ref=f159e57]:
+              - generic [ref=f159e58]: We're sorry, the image below is broken
+              - paragraph [ref=f159e59]: Event spaces holding up to 200 people
+            - generic [ref=f159e60]:
+              - generic [ref=f159e61]: We're sorry, the image below is broken
+              - paragraph [ref=f159e62]: Breakout, collaboration and socialising space
+        - generic [ref=f159e63]:
+          - heading "Perfect for" [level=5] [ref=f159e64]
+          - generic [ref=f159e65]:
+            - paragraph [ref=f159e67]: Team Meetings
+            - paragraph [ref=f159e69]: Workshops
+            - paragraph [ref=f159e71]: Brainstorming Sessions
+            - paragraph [ref=f159e73]: Conferences
+            - paragraph [ref=f159e75]: Training Sessions
+            - paragraph [ref=f159e77]: Presentations and Pitches
+            - paragraph [ref=f159e79]: Board Meetings
+            - paragraph [ref=f159e81]: Team Away Days
+            - paragraph [ref=f159e83]: One-To-Ones
+            - paragraph [ref=f159e85]: Networking Events
+    - generic [ref=f159e87]:
+      - generic [ref=f159e88]:
+        - generic [ref=f159e89]:
+          - heading "Everything you need" [level=2] [ref=f159e90]
+          - paragraph [ref=f159e91]: From the moment you arrive your space is fully equipped for impact. Every booking includes considered details and high-quality amenities to ensure your meeting or event run effortlessly.
+        - generic [ref=f159e92]:
+          - paragraph [ref=f159e93]: Your space always includes
+          - generic [ref=f159e94]:
+            - generic [ref=f159e95]:
+              - button "#" [ref=f159e96] [cursor=pointer]:
+                - img "Logo" [ref=f159e97]: We're sorry, the image below is broken
+                - heading "Flexible layouts" [level=5] [ref=f159e98]
+              - paragraph [ref=f159e99]: Make the space work for you. From boardroom meetings to open-plan setups for team bonding or networking, reconfigure the room to create the perfect environment for any occasion.
+            - generic [ref=f159e100]:
+              - button "#" [ref=f159e101] [cursor=pointer]:
+                - img "Logo" [ref=f159e102]: We're sorry, the image below is broken
+                - heading "Super-fast Wi-Fi" [level=5] [ref=f159e103]
+              - paragraph [ref=f159e104]: Stay connected with reliable WiFi throughout the space. Whether you're hosting a video conference or streaming content, you'll have the speed and stability for a seamless experience.
+            - generic [ref=f159e105]:
+              - button "#" [ref=f159e106] [cursor=pointer]:
+                - img "Logo" [ref=f159e107]: We're sorry, the image below is broken
+                - heading "Equipment" [level=5] [ref=f159e108]
+              - paragraph [ref=f159e109]: Our spaces come equipped with everything you need for a polished, professional experience, from presentation screens to full AV facilities. It's all set up for you to plug in and play the moment you arrive.
+            - generic [ref=f159e110]:
+              - button "#" [ref=f159e111] [cursor=pointer]:
+                - img "Logo" [ref=f159e112]: We're sorry, the image below is broken
+                - heading "Onsite tech-support" [level=5] [ref=f159e113]
+              - paragraph [ref=f159e114]: Our team is on hand before and during your booking to handle any connectivity queries or room setups, so you can focus on the event while we take care of the details.
+            - generic [ref=f159e115]:
+              - button "#" [ref=f159e116] [cursor=pointer]:
+                - img "Logo" [ref=f159e117]: We're sorry, the image below is broken
+                - heading "Complimentary hot drinks" [level=5] [ref=f159e118]
+              - paragraph [ref=f159e119]: Help yourself to a selection of teas and coffee from the machines available throughout your booking. Keeping you and your guests focused and refreshed.
+            - generic [ref=f159e120]:
+              - button "#" [ref=f159e121] [cursor=pointer]:
+                - img "Logo" [ref=f159e122]: We're sorry, the image below is broken
+                - heading "Catering options for events" [level=5] [ref=f159e123]
+              - paragraph [ref=f159e124]: From breakfast selections and light refreshments to working lunches and full event catering, we offer something for every occasion. Our team can help tailor a package ideal for your event.
+      - generic [ref=f159e125]:
+        - img [ref=f159e128]
+        - generic [ref=f159e133]: We're sorry, the image below is broken
+        - img [ref=f159e136]
+    - generic [ref=f159e138]:
+      - generic:
+        - img
+      - heading "Available spaces" [level=2] [ref=f159e139]
+      - generic [ref=f159e140]:
+        - generic [ref=f159e142]:
+          - generic [ref=f159e143]:
+            - combobox [ref=f159e144]
+            - combobox "Space type" [ref=f159e147] [cursor=pointer]:
+              - textbox "Space type" [ref=f159e148]
+          - generic [ref=f159e149]:
+            - combobox [ref=f159e150]
+            - combobox "All location" [ref=f159e153] [cursor=pointer]:
+              - textbox "All location" [ref=f159e154]
+          - generic [ref=f159e155]:
+            - combobox [ref=f159e156]
+            - combobox "All capacity" [ref=f159e159] [cursor=pointer]:
+              - textbox "All capacity" [ref=f159e160]
+        - generic:
+          - generic [ref=f159e161] [cursor=pointer]: We're sorry, the image below is broken Bike parking
+          - generic [ref=f159e162] [cursor=pointer]: We're sorry, the image below is broken Wi-Fi
+          - generic [ref=f159e163] [cursor=pointer]: We're sorry, the image below is broken Showers
+          - generic [ref=f159e164] [cursor=pointer]: We're sorry, the image below is broken Roof terrace
+          - generic [ref=f159e165] [cursor=pointer]: We're sorry, the image below is broken Bookable meeting rooms
+          - generic [ref=f159e166] [cursor=pointer]: We're sorry, the image below is broken Event Space
+          - generic [ref=f159e167] [cursor=pointer]: We're sorry, the image below is broken Daily cleans
+          - generic [ref=f159e168] [cursor=pointer]: We're sorry, the image below is broken Coffee machines
+          - generic [ref=f159e169] [cursor=pointer]: We're sorry, the image below is broken Collaboration space
+          - generic [ref=f159e170] [cursor=pointer]: We're sorry, the image below is broken Storey Club
+          - generic [ref=f159e171] [cursor=pointer]: We're sorry, the image below is broken Phone booths
+          - generic [ref=f159e172] [cursor=pointer]: We're sorry, the image below is broken Towels & hairdryers
+        - generic [ref=f159e174]: Showing 18 results
+      - generic [ref=f159e176]:
+        - generic "#" [ref=f159e178] [cursor=pointer]:
+          - img "Event Space 1 + 2 Combined" [ref=f159e180]: We're sorry, the image below is broken
+          - generic [ref=f159e182]:
+            - paragraph [ref=f159e184]:
+              - generic [ref=f159e185]: Event space
+            - heading "Event Space 1 + 2 Combined" [level=3] [ref=f159e186]
+            - paragraph [ref=f159e187]:
+              - generic [ref=f159e188]: Broadgate
+        - generic "#" [ref=f159e190] [cursor=pointer]:
+          - img "Event Space 2" [ref=f159e192]: We're sorry, the image below is broken
+          - generic [ref=f159e194]:
+            - paragraph [ref=f159e196]:
+              - generic [ref=f159e197]: Event space
+            - heading "Event Space 2" [level=3] [ref=f159e198]
+            - paragraph [ref=f159e199]:
+              - generic [ref=f159e200]: Broadgate
+        - generic "#" [ref=f159e202] [cursor=pointer]:
+          - img "Event Space 1" [ref=f159e204]: We're sorry, the image below is broken
+          - generic [ref=f159e206]:
+            - paragraph [ref=f159e208]:
+              - generic [ref=f159e209]: Event space
+            - heading "Event Space 1" [level=3] [ref=f159e210]
+            - paragraph [ref=f159e211]:
+              - generic [ref=f159e212]: Broadgate
+        - generic "#" [ref=f159e214] [cursor=pointer]:
+          - img "Event Space 2" [ref=f159e216]: We're sorry, the image below is broken
+          - generic [ref=f159e218]:
+            - paragraph [ref=f159e220]:
+              - generic [ref=f159e221]: Event space
+            - heading "Event Space 2" [level=3] [ref=f159e222]
+            - paragraph [ref=f159e223]:
+              - generic [ref=f159e224]: Broadgate
+        - generic "#" [ref=f159e226] [cursor=pointer]:
+          - img "Meeting Room 2" [ref=f159e228]: We're sorry, the image below is broken
+          - generic [ref=f159e230]:
+            - paragraph [ref=f159e232]:
+              - generic [ref=f159e233]: Meeting room
+            - heading "Meeting Room 2" [level=3] [ref=f159e234]
+            - paragraph [ref=f159e235]:
+              - generic [ref=f159e236]: Broadgate
+        - generic "#" [ref=f159e238] [cursor=pointer]:
+          - img "Meeting Room 1+2 Combined" [ref=f159e240]: We're sorry, the image below is broken
+          - generic [ref=f159e242]:
+            - paragraph [ref=f159e244]:
+              - generic [ref=f159e245]: Meeting room
+            - heading "Meeting Room 1+2 Combined" [level=3] [ref=f159e246]
+            - paragraph [ref=f159e247]:
+              - generic [ref=f159e248]: Broadgate
+        - generic "#" [ref=f159e250] [cursor=pointer]:
+          - img "Meeting Room 1" [ref=f159e252]: We're sorry, the image below is broken
+          - generic [ref=f159e254]:
+            - paragraph [ref=f159e256]:
+              - generic [ref=f159e257]: Meeting room
+            - heading "Meeting Room 1" [level=3] [ref=f159e258]
+            - paragraph [ref=f159e259]:
+              - generic [ref=f159e260]: Broadgate
+        - generic "#" [ref=f159e262] [cursor=pointer]:
+          - img "Meeting Room 4" [ref=f159e264]: We're sorry, the image below is broken
+          - generic [ref=f159e266]:
+            - paragraph [ref=f159e268]:
+              - generic [ref=f159e269]: Meeting room
+            - heading "Meeting Room 4" [level=3] [ref=f159e270]
+            - paragraph [ref=f159e271]:
+              - generic [ref=f159e272]: Broadgate
+        - generic "#" [ref=f159e274] [cursor=pointer]:
+          - img "Meeting Room 3" [ref=f159e276]: We're sorry, the image below is broken
+          - generic [ref=f159e278]:
+            - paragraph [ref=f159e280]:
+              - generic [ref=f159e281]: Meeting room
+            - heading "Meeting Room 3" [level=3] [ref=f159e282]
+            - paragraph [ref=f159e283]:
+              - generic [ref=f159e284]: Broadgate
+        - generic "#" [ref=f159e286] [cursor=pointer]:
+          - img "Workshop 2" [ref=f159e288]: We're sorry, the image below is broken
+          - generic [ref=f159e290]:
+            - paragraph [ref=f159e292]:
+              - generic [ref=f159e293]: Event space
+            - heading "Workshop 2" [level=3] [ref=f159e294]
+            - paragraph [ref=f159e295]:
+              - generic [ref=f159e296]: Paddington Central
+        - generic "#" [ref=f159e298] [cursor=pointer]:
+          - img "Workshop 1" [ref=f159e300]: We're sorry, the image below is broken
+          - generic [ref=f159e302]:
+            - paragraph [ref=f159e304]:
+              - generic [ref=f159e305]: Event space
+            - heading "Workshop 1" [level=3] [ref=f159e306]
+            - paragraph [ref=f159e307]:
+              - generic [ref=f159e308]: Paddington Central
+        - generic "#" [ref=f159e310] [cursor=pointer]:
+          - img "Event Hall" [ref=f159e312]: We're sorry, the image below is broken
+          - generic [ref=f159e314]:
+            - paragraph [ref=f159e316]:
+              - generic [ref=f159e317]: Event space
+            - heading "Event Hall" [level=3] [ref=f159e318]
+            - paragraph [ref=f159e319]:
+              - generic [ref=f159e320]: Paddington Central
+        - generic "#" [ref=f159e322] [cursor=pointer]:
+          - img "Dining Room" [ref=f159e324]: We're sorry, the image below is broken
+          - generic [ref=f159e326]:
+            - paragraph [ref=f159e328]:
+              - generic [ref=f159e329]: Meeting room
+            - heading "Dining Room" [level=3] [ref=f159e330]
+            - paragraph [ref=f159e331]:
+              - generic [ref=f159e332]: Paddington Central
+        - generic "#" [ref=f159e334] [cursor=pointer]:
+          - img "Library" [ref=f159e336]: We're sorry, the image below is broken
+          - generic [ref=f159e338]:
+            - paragraph [ref=f159e340]:
+              - generic [ref=f159e341]: Meeting room
+            - heading "Library" [level=3] [ref=f159e342]
+            - paragraph [ref=f159e343]:
+              - generic [ref=f159e344]: Paddington Central
+        - generic "#" [ref=f159e346] [cursor=pointer]:
+          - img "Garden Suite" [ref=f159e348]: We're sorry, the image below is broken
+          - generic [ref=f159e350]:
+            - paragraph [ref=f159e352]:
+              - generic [ref=f159e353]: Meeting room
+            - heading "Garden Suite" [level=3] [ref=f159e354]
+            - paragraph [ref=f159e355]:
+              - generic [ref=f159e356]: Paddington Central
+        - generic "#" [ref=f159e358] [cursor=pointer]:
+          - img "Parlour" [ref=f159e360]: We're sorry, the image below is broken
+          - generic [ref=f159e362]:
+            - paragraph [ref=f159e364]:
+              - generic [ref=f159e365]: Meeting room
+            - heading "Parlour" [level=3] [ref=f159e366]
+            - paragraph [ref=f159e367]:
+              - generic [ref=f159e368]: Paddington Central
+        - generic "#" [ref=f159e370] [cursor=pointer]:
+          - img "Music Room" [ref=f159e372]: We're sorry, the image below is broken
+          - generic [ref=f159e374]:
+            - paragraph [ref=f159e376]:
+              - generic [ref=f159e377]: Meeting room
+            - heading "Music Room" [level=3] [ref=f159e378]
+            - paragraph [ref=f159e379]:
+              - generic [ref=f159e380]: Paddington Central
+        - generic "#" [ref=f159e382] [cursor=pointer]:
+          - img "Atelier" [ref=f159e384]: We're sorry, the image below is broken
+          - generic [ref=f159e386]:
+            - paragraph [ref=f159e388]:
+              - generic [ref=f159e389]: Meeting room
+            - heading "Atelier" [level=3] [ref=f159e390]
+            - paragraph [ref=f159e391]:
+              - generic [ref=f159e392]: Paddington Central
+    - generic [ref=f159e393]:
+      - generic [ref=f159e395]:
+        - heading "Manage your booking" [level=4] [ref=f159e396]
+        - generic [ref=f159e397]:
+          - paragraph [ref=f159e398]: Already reserved an event space or meeting room?
+          - paragraph [ref=f159e399]:
+            - text: To make changes, update your requirements, or get support with your upcoming reservation, please contact our bookings team
+            - link "here" [ref=f159e400] [cursor=pointer]:
+              - /url: https://storey.co.uk/contact-us/
+            - text: .
+        - link "#":
+          - /url: "tel:"
+        - link "#":
+          - /url: "mailto:"
+        - generic:
+          - link "#":
+            - /url: https://www.facebook.com/ThisIsStorey
+            - text: We're sorry, the image below is broken
+          - link "#":
+            - /url: https://www.instagram.com/thisisstorey/
+            - text: We're sorry, the image below is broken
+          - link "#":
+            - /url: https://www.linkedin.com/company/this-is-storey/
+            - text: We're sorry, the image below is broken
+      - generic [ref=f159e401]:
+        - heading "Enquire now" [level=5] [ref=f159e402]
+        - paragraph [ref=f159e403]: Ready to book, or have a question? Fill in the form below to reach our Storey Club team, or contact us directly at workspace@britishland.com or 0800 0485 750.
+        - generic [ref=f159e404]:
+          - generic [ref=f159e405]:
+            - status
+            - list
+          - form "Contact form" [ref=f159e406]:
+            - heading "Your Details" [level=6] [ref=f159e407]
+            - paragraph [ref=f159e408]:
+              - textbox "First name*" [ref=f159e410]
+              - textbox "Last name*" [ref=f159e412]
+              - textbox "Contact email*" [ref=f159e414]
+              - textbox "Contact number*" [ref=f159e416]
+              - textbox "Company*" [ref=f159e418]
+              - combobox [ref=f159e420] [cursor=pointer]:
+                - option "How did you hear about us?" [selected]
+                - option "Advertisement"
+                - option "Another Company's Website"
+                - option "Blog"
+                - option "Event"
+                - option "Search Engines"
+                - option "Social Media"
+                - option "Video"
+                - option "Word of Mouth"
+                - option "Other"
+            - paragraph [ref=f159e421]: Please let us know any additional information
+            - paragraph [ref=f159e422]:
+              - textbox "Please mention any specific floor numbers or additional information here..." [ref=f159e424]
+            - paragraph [ref=f159e425]:
+              - button "Submit" [ref=f159e426] [cursor=pointer]
+  - contentinfo [ref=f159e427]:
+    - generic [ref=f159e428]:
+      - generic [ref=f159e429]:
+        - generic [ref=f159e430]:
+          - paragraph [ref=f159e431]: Quicklinks
+          - generic [ref=f159e432]:
+            - heading "#" [level=3] [ref=f159e433]:
+              - link "#" [ref=f159e434] [cursor=pointer]:
+                - /url: /workspace/
+                - text: Workspace
+            - heading "#" [level=3] [ref=f159e435]:
+              - link "#" [ref=f159e436] [cursor=pointer]:
+                - /url: /meeting-and-events/
+                - text: Meeting & Events spaces
+          - generic [ref=f159e437]:
+            - heading "#" [level=6] [ref=f159e438]:
+              - link "#" [ref=f159e439] [cursor=pointer]:
+                - /url: https://storey.co.uk/about-storey/
+                - text: About Storey
+            - heading "#" [level=6] [ref=f159e440]:
+              - link "#" [ref=f159e441] [cursor=pointer]:
+                - /url: https://storey.co.uk/contact-us/
+                - text: Contact Us
+            - heading "#" [level=6] [ref=f159e442]:
+              - link "#" [ref=f159e443] [cursor=pointer]:
+                - /url: https://my.storey.co.uk/login
+                - text: Login
+          - generic [ref=f159e444]:
+            - link "#" [ref=f159e445] [cursor=pointer]:
+              - /url: https://www.facebook.com/ThisIsStorey
+              - text: We're sorry, the image below is broken
+            - link "#" [ref=f159e446] [cursor=pointer]:
+              - /url: https://www.instagram.com/thisisstorey/
+              - text: We're sorry, the image below is broken
+            - link "#" [ref=f159e447] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/this-is-storey/
+              - text: We're sorry, the image below is broken
+        - generic [ref=f159e449]:
+          - link "#" [ref=f159e450] [cursor=pointer]:
+            - /url: https://storey.co.uk
+            - img [ref=f159e451]
+          - link "#" [ref=f159e453] [cursor=pointer]:
+            - /url: https://www.britishland.com/privacy-notice
+            - generic [ref=f159e454]: Privacy Notice
+          - link "#" [ref=f159e455] [cursor=pointer]:
+            - /url: https://www.britishland.com/terms-of-use/
+            - generic [ref=f159e456]: Terms of use
+          - link "#" [ref=f159e457] [cursor=pointer]:
+            - /url: /storey-club-meeting-room-event-space-terms-and-conditions/
+            - generic [ref=f159e458]: Terms & Conditions
+      - generic [ref=f159e459]:
+        - generic [ref=f159e460]:
+          - paragraph [ref=f159e461]: What our customers say
+          - generic [ref=f159e462]:
+            - generic [ref=f159e463]:
+              - heading "Storey quickly accommodated us in a space that is bright, airy, and inspiring. With excellent transport connections, we’ve settled into our new home, which offers first-class amenities, flexible meeting rooms, and fantastic breakout areas." [level=5] [ref=f159e464]
+              - heading "Our offices at Storey are a place we’re proud to bring our customers. Th facilities are of a high standard and the Storey team provide a brilliant level of customer service." [level=5]
+              - heading "We’re always happy to recommend Storey to colleagues and friends looking for a flexible, high-quality workplace. Storey offers a professional, inspiring atmosphere with the kind of amenities and community that enhance the working environment." [level=5]
+            - generic [ref=f159e465]:
+              - paragraph [ref=f159e466]:
+                - generic [ref=f159e467]:
+                  - text: Gareth Sinnamon
+                  - text: Stace
+              - paragraph:
+                - generic:
+                  - text: Simon Field
+                  - text: Hain Celestial
+              - paragraph:
+                - generic:
+                  - text: Hannah Longley
+                  - text: Sasol
+            - generic [ref=f159e468]:
+              - button "Quote 1"
+              - button "Quote 2" [ref=f159e469] [cursor=pointer]
+              - button "Quote 3" [ref=f159e470] [cursor=pointer]
+          - paragraph [ref=f159e471]: Storey Team
+          - generic [ref=f159e472]:
+            - paragraph [ref=f159e473]:
+              - link "#" [ref=f159e474] [cursor=pointer]:
+                - /url: tel:0800 0485 750
+                - text: 0800 0485 750
+            - paragraph [ref=f159e475]:
+              - link "#" [ref=f159e476] [cursor=pointer]:
+                - /url: mailto:workspace@britishland.com
+                - text: workspace@britishland.com
+            - paragraph [ref=f159e477]:
+              - link "Contact Us" [ref=f159e478] [cursor=pointer]:
+                - /url: https://storey.co.uk/contact/
+        - generic [ref=f159e479]:
+          - generic [ref=f159e480]:
+            - paragraph [ref=f159e481]:
+              - generic [ref=f159e482]:
+                - text: Brought to
+                - text: you by
+            - link "#" [ref=f159e483] [cursor=pointer]:
+              - /url: "#"
+              - text: We're sorry, the image below is broken
+            - paragraph [ref=f159e484]:
+              - generic [ref=f159e485]: "The British Land Company PLC. Registered in England. Company No: 621920. Registered Office: York House, 45 Seymour Street, London, W1H 7LX"
+          - generic [ref=f159e486]:
+            - paragraph [ref=f159e487]:
+              - generic [ref=f159e488]: Made by
+            - link "Web design & development by Mallard & Claret We're sorry, the image below is broken" [ref=f159e489] [cursor=pointer]:
+              - /url: https://mallardandclaret.com/
+              - generic [ref=f159e490]: Web design & development by Mallard & Claret
+              - text: We're sorry, the image below is broken
+            - link "View development case study for Storey" [ref=f159e491] [cursor=pointer]:
+              - /url: https://mallardandclaret.com/work/storey/
+  - iframe [ref=f159e494]:
+    - generic [ref=f162e6]:
+      - text: protection par
+      - strong [ref=f162e7]: reCAPTCHA

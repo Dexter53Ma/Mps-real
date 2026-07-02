@@ -1,0 +1,11 @@
+[     212ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://storey.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[     561ms] Uncaught Error: Usercentrics: duplicated script tag
+    at <anonymous> (https://app.usercentrics.eu/browser-ui/latest/bundle.js:0:474881)
+    at <anonymous> (https://app.usercentrics.eu/browser-ui/latest/bundle.js:218:54847)
+[     586ms] [LOG] Initializing LiveConnect @ https://www.365syndicate.com/js/797653.js:0
+[     586ms] [LOG] events.bus.init @ https://www.365syndicate.com/js/797653.js:0
+[     586ms] [LOG] handlers.error.register {wrapperName: audigent, identifiersToResolve: Array(0), storageStrategy: none, gdprApplies: true, privacyMode: true} null @ https://www.365syndicate.com/js/797653.js:0
+[     587ms] [LOG] identifiers.resolve {wrapperName: audigent, identifiersToResolve: Array(0), storageStrategy: none, gdprApplies: true, privacyMode: true} @ https://www.365syndicate.com/js/797653.js:0
+[     587ms] [LOG] decisions.resolve {wrapperName: audigent, identifiersToResolve: Array(0), storageStrategy: none, gdprApplies: true, privacyMode: true} @ https://www.365syndicate.com/js/797653.js:0
+[     587ms] [LOG] LiveConnect.enrichedState {data: Object, combineWith: , asQuery: , asTuples: , sendsPixel: } @ https://www.365syndicate.com/js/797653.js:0
+[     587ms] [LOG] LiveConnect.postManagedState {data: Object, combineWith: , asQuery: , asTuples: , sendsPixel: } @ https://www.365syndicate.com/js/797653.js:0

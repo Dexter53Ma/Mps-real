@@ -1,0 +1,717 @@
+- generic [active] [ref=f83e1]:
+  - banner [ref=f83e2]:
+    - link "#" [ref=f83e3] [cursor=pointer]:
+      - /url: https://storey.co.uk
+    - navigation [ref=f83e4]:
+      - generic [ref=f83e5]:
+        - heading "Workspaces" [level=6] [ref=f83e6] [cursor=pointer]:
+          - link "Workspaces" [ref=f83e7]:
+            - /url: /workspace/
+        - generic:
+          - generic:
+            - heading "Find workspace" [level=4]
+            - paragraph: With straightforward leases, and the freedom to add more space as you grow.
+            - generic:
+              - link "#":
+                - /url: /workspace/?view=list
+                - text: Latest Availability
+              - link "#":
+                - /url: /workspace/
+                - text: View all
+          - generic:
+            - heading "Browse by location" [level=4]
+            - link "#":
+              - /url: /workspace/?type-location=workspace&campus=norton-folgate&capacity_location=&sq_ft_location=
+              - text: Norton Folgate
+            - link "#":
+              - /url: https://storey.co.uk/workspace/?type_location=workspace&campus=broadgate&capacity_location=
+              - text: Broadgate
+            - link "#":
+              - /url: https://storey.co.uk/workspace/?type_location=workspace&campus=regent-s-place&capacity_location=
+              - text: Regent's Place
+            - link "#":
+              - /url: https://storey.co.uk/workspace/?type_location=workspace&campus=paddington-central&capacity_location=
+              - text: Paddington Central
+            - link "#":
+              - /url: /workspace/
+              - text: View All
+          - generic:
+            - heading "Browse by capacity" [level=4]
+            - link "#":
+              - /url: /workspace/?type-location=workspace&campus=&capacity_location=0-19&sq_ft_location=
+              - text: Up to 20
+            - link "#":
+              - /url: /workspace/?type-location=workspace&campus=&capacity_location=20-39&sq_ft_location=
+              - text: 20-40
+            - link "#":
+              - /url: /workspace/?type-location=workspace&campus=&capacity_location=50&sq_ft_location=
+              - text: 50+
+            - link "#":
+              - /url: /workspace/
+              - text: View All
+          - link "#":
+            - /url: https://storey.co.uk/workspace/1-triton-square/
+            - text: We're sorry, the image below is broken
+            - heading "1 Triton Square" [level=4]
+            - paragraph: Our latest Storey
+      - generic [ref=f83e8]:
+        - heading "Meeting & Event spaces" [level=6] [ref=f83e9] [cursor=pointer]:
+          - link "Meeting & Event spaces" [ref=f83e10]:
+            - /url: /meeting-and-events/
+        - generic:
+          - generic:
+            - heading "Book a space" [level=4]
+            - paragraph: Book beautifully designed meeting rooms and event spaces across our two Central London locations.
+            - generic:
+              - link "#":
+                - /url: /meeting-and-events/
+                - text: Book now
+          - generic:
+            - heading "Browse by location" [level=4]
+            - link "#":
+              - /url: /meeting-and-events/?type-location=meeting-space&meeting_space_location=broadgate-ec2&capacity_meeting_space=
+              - text: Broadgate
+            - link "#":
+              - /url: /meeting-and-events/?type-location=meeting-space&meeting_space_location=paddington-w2&capacity_meeting_space=
+              - text: Paddington Central
+            - link "#":
+              - /url: /meeting-and-events/
+              - text: View All
+          - generic:
+            - heading "Browse by capacity" [level=4]
+            - link "#":
+              - /url: /meeting-and-events/?type-location=meeting-space&meeting_space_location=&capacity_meeting_space=up-to-6
+              - text: Up to 6
+            - link "#":
+              - /url: /meeting-and-events/meeting-space/?type_location=meeting-space&meeting_space_location=&capacity_meeting_space=up-to-10
+              - text: Up to 10
+            - link "#":
+              - /url: /meeting-and-events/?type_location=meeting-space&meeting_space_location=&capacity_meeting_space=up-to-20
+              - text: Up to 20
+            - link "#":
+              - /url: /meeting-and-events/
+              - text: View All
+          - link "#":
+            - /url: https://storey.co.uk/meeting-and-events
+            - text: We're sorry, the image below is broken
+            - heading "View all spaces" [level=4]
+            - paragraph
+      - generic [ref=f83e11]:
+        - heading "About Storey" [level=6] [ref=f83e12] [cursor=pointer]:
+          - link "About Storey" [ref=f83e13]:
+            - /url: /why-storey
+        - generic:
+          - generic:
+            - heading "About Storey" [level=4]
+            - link "#":
+              - /url: /our-latest-storey/
+              - text: Our latest Storey
+            - link "#":
+              - /url: https://storey.co.uk/frequently-asked-questions/
+              - text: FAQs
+            - link "#":
+              - /url: https://storey.co.uk/sustainability/
+              - text: Sustainability
+          - link "#":
+            - /url: https://storey.co.uk/why-storey
+            - text: We're sorry, the image below is broken
+            - heading "Why Storey" [level=4]
+            - paragraph
+          - link "#":
+            - /url: https://storey.co.uk/storey-club/
+            - text: We're sorry, the image below is broken
+            - heading "Storey Club" [level=4]
+            - paragraph
+    - generic [ref=f83e14]:
+      - generic [ref=f83e15]:
+        - button "show accessibility tools" [ref=f83e16] [cursor=pointer]:
+          - img [ref=f83e17]
+        - button "Show cookies" [ref=f83e20] [cursor=pointer]:
+          - img [ref=f83e21]
+      - link "#" [ref=f83e23] [cursor=pointer]:
+        - /url: /contact-us/
+        - text: Get in touch
+      - link "#" [ref=f83e24] [cursor=pointer]:
+        - /url: /meeting-and-events
+        - text: Book meeting rooms
+  - text: We're sorry, the image below is broken We're sorry, the image below is broken We're sorry, the image below is broken
+  - main [ref=f83e25]:
+    - generic [ref=f83e26]:
+      - generic [ref=f83e27]: We're sorry, the image below is broken
+      - heading "About Storey" [level=1] [ref=f83e29]
+    - generic [ref=f83e31]:
+      - generic [ref=f83e32]:
+        - generic [ref=f83e33]:
+          - heading [level=2]
+          - heading [level=6]
+        - generic [ref=f83e34]:
+          - link "#" [ref=f83e35] [cursor=pointer]:
+            - /url: "#who"
+            - text: Who we are
+          - link "#" [ref=f83e37] [cursor=pointer]:
+            - /url: "#what"
+            - text: What we offer
+          - link "#" [ref=f83e39] [cursor=pointer]:
+            - /url: "#where"
+            - text: Where we are
+          - link "#" [ref=f83e41] [cursor=pointer]:
+            - /url: "#why"
+            - text: Why Storey?
+          - link "#" [ref=f83e43] [cursor=pointer]:
+            - /url: /workspace
+            - text: View our Workspaces
+        - generic [ref=f83e44]:
+          - generic [ref=f83e45]: We're sorry, the image below is broken
+          - generic [ref=f83e46]:
+            - heading [level=3]
+      - generic [ref=f83e47]:
+        - generic [ref=f83e48]:
+          - heading "Who we are" [level=6] [ref=f83e49]
+          - heading "Storey is the brand behind some of the best flexible workspaces in London." [level=3] [ref=f83e50]
+        - generic [ref=f83e51]:
+          - heading "Our fully furnished office spaces are ready for you to move into and make your mark – stay for one year or grow into something bigger." [level=5] [ref=f83e52]
+          - paragraph [ref=f83e53]: We also make setting up a new office space simple thanks to our straightforward leases, inclusive price packages (covering cleaning, WiFi, utilities and office desks and chairs) and experienced service teams who can help you with everything from moving in to running your space day to day.
+          - paragraph [ref=f83e54]: As part of British Land, one of Europe’s largest listed real estate investment companies, our spaces are based in some of the most acclaimed and well-connected locations in Liverpool Street, Paddington and beyond.
+          - paragraph [ref=f83e55]: You’re not just getting a place to work, you become part of London’s most sought-after communities with excellent transport, food, drink and shopping, an emphasis on outstanding facilities and meeting rooms plus a packed networking events calendar. Wellbeing and sustainability are standard.
+          - paragraph [ref=f83e56]: "Everything is designed to be as easy as possible so you can focus on the important stuff: your business."
+          - link "#" [ref=f83e57] [cursor=pointer]:
+            - /url: /workspace
+            - text: Find a Workspace
+          - generic [ref=f83e59]:
+            - heading [level=5]
+            - paragraph
+    - generic [ref=f83e62]:
+      - generic [ref=f83e63]:
+        - heading "What Storey offers" [level=2] [ref=f83e65]
+        - generic [ref=f83e66]:
+          - paragraph [ref=f83e67]:
+            - strong [ref=f83e68]: We offer three distinct types of space to suit how and where your business works best.
+          - paragraph [ref=f83e69]: Whether you need a permanent base, somewhere to meet, or space for a one-off event, Storey has you covered.
+          - paragraph [ref=f83e70]: Each space is thoughtfully designed, fully equipped, and supported by our on-site team — giving you the freedom to focus on your people, your clients, and your goals.
+      - generic [ref=f83e71]:
+        - link "#" [ref=f83e73] [cursor=pointer]:
+          - /url: /workspace/
+          - generic [ref=f83e75]: We're sorry, the image below is broken
+          - generic [ref=f83e76]:
+            - heading "Workspaces" [level=4] [ref=f83e77]
+            - paragraph [ref=f83e78]: Flexible working spaces for 10+ desks with simple leases, expert customer service and more.
+        - generic [ref=f83e79]:
+          - link "#" [ref=f83e80] [cursor=pointer]:
+            - /url: /meeting-space/
+            - generic [ref=f83e82]: We're sorry, the image below is broken
+            - generic [ref=f83e83]:
+              - heading "Meeting Rooms" [level=4] [ref=f83e84]
+              - paragraph [ref=f83e85]: Bookable spaces for client meetings, breakout sessions and collaborative workshops with onsite support for tech and beyond.
+          - link "#" [ref=f83e86] [cursor=pointer]:
+            - /url: /event-space/
+            - generic [ref=f83e88]: We're sorry, the image below is broken
+            - generic [ref=f83e89]:
+              - heading "Event Spaces" [level=4] [ref=f83e90]
+              - paragraph [ref=f83e91]: From conferences to client pitches, find the perfect digital-ready space for one-off events and townhalls.
+    - generic [ref=f83e93]:
+      - generic [ref=f83e95]:
+        - generic [ref=f83e96]:
+          - generic [ref=f83e97]:
+            - heading "Choose from Storey spaces across London" [level=2] [ref=f83e98]
+            - paragraph [ref=f83e99]: Beautifully designed with exceptional facilities and expert support teams on site, all of Storey’s flexible locations are based in some of the best-connected and exciting spots in the city – surrounded by world-leading companies, bars, restaurants, gyms and green spaces.
+            - link "#" [ref=f83e101] [cursor=pointer]:
+              - /url: /workspace/?view=map
+              - text: Available space via map
+          - generic [ref=f83e103]:
+            - paragraph [ref=f83e104]: London wide locations
+            - list [ref=f83e105]:
+              - listitem [ref=f83e106]:
+                - link "Liverpool Street The City" [ref=f83e107] [cursor=pointer]:
+                  - /url: https://storey.co.uk/workspace/?type-location=workspace&campus=broadgate
+                  - heading "Liverpool Street" [level=5] [ref=f83e108]
+                  - paragraph [ref=f83e110]: The City
+              - listitem [ref=f83e111]:
+                - link "Hackney East London" [ref=f83e112] [cursor=pointer]:
+                  - /url: https://storey.co.uk/workspace/?type-location=workspace&campus=haggerston
+                  - heading "Hackney" [level=5] [ref=f83e113]
+                  - paragraph [ref=f83e115]: East London
+              - listitem [ref=f83e116]:
+                - link "Paddington West London" [ref=f83e117] [cursor=pointer]:
+                  - /url: https://storey.co.uk/workspace/?type-location=workspace&campus=paddington-central
+                  - heading "Paddington" [level=5] [ref=f83e118]
+                  - paragraph [ref=f83e120]: West London
+              - listitem [ref=f83e121]:
+                - link "Great Portland Street Central London" [ref=f83e122] [cursor=pointer]:
+                  - /url: https://storey.co.uk/workspace/?type-location=workspace&campus=regent-s-place
+                  - heading "Great Portland Street" [level=5] [ref=f83e123]
+                  - paragraph [ref=f83e125]: Central London
+        - generic [ref=f83e127]:
+          - generic [ref=f83e128]: We're sorry, the image below is broken
+          - generic:
+            - generic [ref=f83e129]:
+              - img [ref=f83e131] [cursor=pointer]
+              - link "We're sorry, the image below is broken Liverpool Street 5 Locations Available":
+                - /url: https://storey.co.uk/workspace/?type-location=workspace&campus=broadgate
+                - generic: We're sorry, the image below is broken
+                - generic:
+                  - heading "Liverpool Street" [level=6]
+                  - generic: 5 Locations Available
+            - generic [ref=f83e133]:
+              - img [ref=f83e135] [cursor=pointer]
+              - link "We're sorry, the image below is broken Hackney 1 Location Available":
+                - /url: https://storey.co.uk/workspace/?type-location=workspace&campus=haggerston
+                - generic: We're sorry, the image below is broken
+                - generic:
+                  - heading "Hackney" [level=6]
+                  - generic: 1 Location Available
+            - generic [ref=f83e137]:
+              - img [ref=f83e139] [cursor=pointer]
+              - link "We're sorry, the image below is broken Paddington 2 Locations Available":
+                - /url: https://storey.co.uk/workspace/?type-location=workspace&campus=paddington-central
+                - generic: We're sorry, the image below is broken
+                - generic:
+                  - heading "Paddington" [level=6]
+                  - generic: 2 Locations Available
+            - generic [ref=f83e141]:
+              - img [ref=f83e143] [cursor=pointer]
+              - link "We're sorry, the image below is broken Great Portland Street 2 Locations Available":
+                - /url: https://storey.co.uk/workspace/?type-location=workspace&campus=regent-s-place
+                - generic: We're sorry, the image below is broken
+                - generic:
+                  - heading "Great Portland Street" [level=6]
+                  - generic: 2 Locations Available
+      - generic [ref=f83e146]:
+        - generic [ref=f83e147]:
+          - generic [ref=f83e148]:
+            - generic [ref=f83e149]: We're sorry, the image below is broken
+            - generic:
+              - heading "Filled with bustling bars, cafes and restaurants, Broadgate Circle is one of Liverpool Street's most popular food and drink spots to discover." [level=5]
+          - generic [ref=f83e150]:
+            - generic [ref=f83e151]: We're sorry, the image below is broken
+            - generic:
+              - heading "Regent’s Place Plaza offers year-round activities – allowing people to connect, relax and play." [level=5]
+          - generic [ref=f83e152]:
+            - generic [ref=f83e153]: We're sorry, the image below is broken
+            - generic:
+              - heading "Soak up the sun in Paddington Central’s amphitheatre – a lively green space at the heart of the campus, perfect for lunch, meetings or simply unwinding." [level=5]
+          - generic [ref=f83e154]:
+            - generic [ref=f83e155]: We're sorry, the image below is broken
+            - generic:
+              - heading "Surrounded by a thriving network of creative and start-up companies, great places to eat and drink, art studios and pop-ups, Storey in Norton Folgate (Livepool Street) is ideal for companies on the move." [level=5]
+          - generic [ref=f83e156]:
+            - generic [ref=f83e157]: We're sorry, the image below is broken
+            - generic:
+              - heading "Find planting, sculptural seating, wooden pavilions, secluded spots and suntraps at Regent’s Place." [level=5]
+        - generic [ref=f83e158]:
+          - button "Previous slide" [ref=f83e159] [cursor=pointer]:
+            - img [ref=f83e160]
+          - button "Next slide" [ref=f83e163] [cursor=pointer]:
+            - img [ref=f83e164]
+    - generic [ref=f83e170]:
+      - generic [ref=f83e171]:
+        - generic [ref=f83e173]:
+          - heading "Set in landmark buildings across the capital" [level=2] [ref=f83e174]
+          - heading "All of our buildings are hand-picked for their location, quality and connections, giving you a workspace that works harder for your business." [level=5] [ref=f83e175]
+        - link "#" [ref=f83e177] [cursor=pointer]:
+          - /url: https://storey.co.uk/workspace/1-triton-square/
+          - generic [ref=f83e179]: We're sorry, the image below is broken
+          - generic [ref=f83e180]:
+            - generic [ref=f83e181]:
+              - paragraph [ref=f83e182]:
+                - generic [ref=f83e183]: Workspace
+              - heading "1 Triton Square" [level=2] [ref=f83e184]
+              - generic [ref=f83e185]:
+                - heading "Regent's Place, NW1" [level=5] [ref=f83e186]
+                - heading "40-50" [level=5] [ref=f83e187]
+            - generic [ref=f83e188]:
+              - paragraph [ref=f83e189]: Available now
+              - generic [ref=f83e190]:
+                - paragraph [ref=f83e191]:
+                  - generic [ref=f83e192]: Coffee machines
+                - paragraph [ref=f83e193]:
+                  - generic [ref=f83e194]: Collaboration space
+                - paragraph [ref=f83e195]:
+                  - generic [ref=f83e196]: Storey Club
+                - paragraph [ref=f83e197]:
+                  - generic [ref=f83e198]: Bike parking
+                - paragraph [ref=f83e199]:
+                  - generic [ref=f83e200]: Phone booths
+                - paragraph [ref=f83e201]:
+                  - generic [ref=f83e202]: Wi-Fi
+                - paragraph [ref=f83e203]:
+                  - generic [ref=f83e204]: Towels & hairdryers
+                - paragraph [ref=f83e205]:
+                  - generic [ref=f83e206]: Showers
+                - paragraph [ref=f83e207]:
+                  - generic [ref=f83e208]: Roof terrace
+                - paragraph [ref=f83e209]:
+                  - generic [ref=f83e210]: Bookable meeting rooms
+                - paragraph [ref=f83e211]:
+                  - generic [ref=f83e212]: Daily cleans
+        - link "#" [ref=f83e214] [cursor=pointer]:
+          - /url: https://storey.co.uk/workspace/nicholls-clarke/
+          - generic [ref=f83e216]: We're sorry, the image below is broken
+          - generic [ref=f83e217]:
+            - generic [ref=f83e218]:
+              - paragraph [ref=f83e219]:
+                - generic [ref=f83e220]: Workspace
+              - heading "Nicholls & Clarke" [level=2] [ref=f83e221]
+              - generic [ref=f83e222]:
+                - heading "Norton Folgate, E1" [level=5] [ref=f83e223]
+                - heading "0 to 19, 40-50" [level=5] [ref=f83e224]
+            - generic [ref=f83e225]:
+              - paragraph [ref=f83e226]: Available now
+              - generic [ref=f83e227]:
+                - paragraph [ref=f83e228]:
+                  - generic [ref=f83e229]: Bike parking
+                - paragraph [ref=f83e230]:
+                  - generic [ref=f83e231]: Wi-Fi
+                - paragraph [ref=f83e232]:
+                  - generic [ref=f83e233]: Showers
+                - paragraph [ref=f83e234]:
+                  - generic [ref=f83e235]: Roof terrace
+                - paragraph [ref=f83e236]:
+                  - generic [ref=f83e237]: Bookable meeting rooms
+                - paragraph [ref=f83e238]:
+                  - generic [ref=f83e239]: Daily cleans
+                - paragraph [ref=f83e240]:
+                  - generic [ref=f83e241]: Coffee machines
+                - paragraph [ref=f83e242]:
+                  - generic [ref=f83e243]: Collaboration space
+                - paragraph [ref=f83e244]:
+                  - generic [ref=f83e245]: Storey Club
+                - paragraph [ref=f83e246]:
+                  - generic [ref=f83e247]: Phone booths
+                - paragraph [ref=f83e248]:
+                  - generic [ref=f83e249]: Towels & hairdryers
+        - link "#" [ref=f83e251] [cursor=pointer]:
+          - /url: https://storey.co.uk/workspace/broadgate-tower/
+          - generic [ref=f83e253]: We're sorry, the image below is broken
+          - generic [ref=f83e254]:
+            - generic [ref=f83e255]:
+              - paragraph [ref=f83e256]:
+                - generic [ref=f83e257]: Workspace
+              - heading "Broadgate Tower" [level=2] [ref=f83e258]
+              - generic [ref=f83e259]:
+                - heading "Broadgate, EC2" [level=5] [ref=f83e260]
+                - heading "20-39, 50+" [level=5] [ref=f83e261]
+            - generic [ref=f83e262]:
+              - paragraph [ref=f83e263]: Available now
+              - generic [ref=f83e264]:
+                - paragraph [ref=f83e265]:
+                  - generic [ref=f83e266]: Daily cleans
+                - paragraph [ref=f83e267]:
+                  - generic [ref=f83e268]: Coffee machines
+                - paragraph [ref=f83e269]:
+                  - generic [ref=f83e270]: Collaboration space
+                - paragraph [ref=f83e271]:
+                  - generic [ref=f83e272]: Bike parking
+                - paragraph [ref=f83e273]:
+                  - generic [ref=f83e274]: Storey Club
+                - paragraph [ref=f83e275]:
+                  - generic [ref=f83e276]: Wi-Fi
+                - paragraph [ref=f83e277]:
+                  - generic [ref=f83e278]: Phone booths
+                - paragraph [ref=f83e279]:
+                  - generic [ref=f83e280]: Showers
+                - paragraph [ref=f83e281]:
+                  - generic [ref=f83e282]: Towels & hairdryers
+                - paragraph [ref=f83e283]:
+                  - generic [ref=f83e284]: Bookable meeting rooms
+      - generic [ref=f83e285]:
+        - generic [ref=f83e286]:
+          - link "#" [ref=f83e287] [cursor=pointer]:
+            - /url: /workspace
+            - text: Workspace
+          - link "#" [ref=f83e289] [cursor=pointer]:
+            - /url: /meeting-space
+            - text: Meeting space
+          - link "#" [ref=f83e291] [cursor=pointer]:
+            - /url: /event-space
+            - text: Event space
+        - link "#" [ref=f83e294] [cursor=pointer]:
+          - /url: /locations/
+          - text: View all locations
+    - generic [ref=f83e298]:
+      - generic [ref=f83e299]:
+        - generic [ref=f83e300]:
+          - heading "What makes Storey special" [level=2] [ref=f83e301]
+          - paragraph [ref=f83e302]: Being part of Storey isn’t just about finding a workspace, it’s about being part of something special – access to some of London’s most acclaimed and brilliantly designed buildings, instant connections via our packed social calendar and unrivalled customer support.
+          - link "#" [ref=f83e303] [cursor=pointer]:
+            - /url: /workspace
+            - text: Find a workspace
+        - generic [ref=f83e305]:
+          - paragraph [ref=f83e306]: The Storey Way
+          - generic [ref=f83e307]:
+            - generic [ref=f83e308]:
+              - button "#" [ref=f83e309] [cursor=pointer]:
+                - img "Logo" [ref=f83e310]: We're sorry, the image below is broken
+                - heading "Flexible, ready-to-use workspaces" [level=5] [ref=f83e311]
+              - paragraph [ref=f83e312]: Step into carefully and sustainably designed spaces from day one. No need to manage a complex fit-out, maintenance or set-up thanks to our expert teams.
+            - generic [ref=f83e313]:
+              - button "#" [ref=f83e314] [cursor=pointer]:
+                - img "Logo" [ref=f83e315]: We're sorry, the image below is broken
+                - heading "On-site facilities" [level=5] [ref=f83e316]
+              - paragraph [ref=f83e317]: All of Storey’s spaces offer outstanding facilities including bike racks, showers and lockers with meeting rooms and event spaces as and when you need them.
+            - generic [ref=f83e318]:
+              - button "#" [ref=f83e319] [cursor=pointer]:
+                - img "Logo" [ref=f83e320]: We're sorry, the image below is broken
+                - heading "Expert relationship teams" [level=5] [ref=f83e321]
+              - paragraph [ref=f83e322]: On hand to make everything work seamlessly. From making your mark by personalising your office space, to the day-to-day assistance.
+            - generic [ref=f83e323]:
+              - button "#" [ref=f83e324] [cursor=pointer]:
+                - img "Logo" [ref=f83e325]: We're sorry, the image below is broken
+                - heading "Building features" [level=5] [ref=f83e326]
+              - paragraph [ref=f83e327]: As part of British Land, storey spaces are located in some of the most sustainably innovative and celebrated buildings in the world.
+            - generic [ref=f83e328]:
+              - button "#" [ref=f83e329] [cursor=pointer]:
+                - img "Logo" [ref=f83e330]: We're sorry, the image below is broken
+                - heading "Easy transport links" [level=5] [ref=f83e331]
+              - paragraph [ref=f83e332]: All of Storey's sites are located next to major train, Tube and Elizabeth Line stations.
+            - generic [ref=f83e333]:
+              - button "#" [ref=f83e334] [cursor=pointer]:
+                - img "Logo" [ref=f83e335]: We're sorry, the image below is broken
+                - heading "Local amenities" [level=5] [ref=f83e336]
+              - paragraph [ref=f83e337]: From East London’s buzzing bars, restaurants and stores to Paddington’s waterside, Storey puts you in London’s most exciting areas.
+            - generic [ref=f83e338]:
+              - button "#" [ref=f83e339] [cursor=pointer]:
+                - img "Logo" [ref=f83e340]: We're sorry, the image below is broken
+                - heading "Community and events" [level=5] [ref=f83e341]
+              - paragraph [ref=f83e342]: Storey customers are part of a brimming events calendar – learn, connect with your neighbours, network or just be inspired.
+      - generic [ref=f83e343]:
+        - img [ref=f83e346]
+        - generic [ref=f83e351]: We're sorry, the image below is broken
+        - img [ref=f83e354]
+    - generic [ref=f83e358]:
+      - generic [ref=f83e359]:
+        - heading "From the experts at British Land" [level=2] [ref=f83e360]
+        - paragraph
+        - paragraph [ref=f83e361]: Our experience means you’re guaranteed a best-in-class workspace.
+        - paragraph [ref=f83e362]: British Land is one of Europe’s largest listed real estate investment companies, creating places where people and businesses can thrive, with a focus on beautiful design, high-quality workspaces, incredible transport links, world-class retail and amenities – that’s why globally recognised businesses call our office space home.
+        - paragraph [ref=f83e363]: Storey is British Land’s flexible workspace offering — purpose-built for ambitious, growing companies who want exceptional space with outstanding service, flexibility and ease at every step.
+        - paragraph [ref=f83e364]: It means you can get started quickly, stay focused on growing your business, and know your workspace will flex as your needs evolve.
+        - paragraph
+        - link "#" [ref=f83e365] [cursor=pointer]:
+          - /url: https://www.britishland.com/about-us/?utm_source=About+Storey&utm_medium=Website&utm_campaign=Storey
+          - text: About British Land
+      - generic [ref=f83e367] [cursor=pointer]:
+        - generic:
+          - generic:
+            - img
+        - generic [ref=f83e368]: We're sorry, the image below is broken
+        - generic:
+          - generic:
+            - img
+    - generic [ref=f83e370]:
+      - generic [ref=f83e371]: We're sorry, the image below is broken
+      - generic [ref=f83e372]:
+        - heading "Sustainability at Storey" [level=1] [ref=f83e373]
+        - generic [ref=f83e374]:
+          - paragraph [ref=f83e375]: Pioneering businesses need future-ready spaces – and across all our London workspaces, Storey and British Land have set new standards and won awards for sustainable design and construction across new and redeveloped buildings.
+          - paragraph [ref=f83e376]: Our commitment to our sustainability strategy ‘Greener Spaces, Thriving Places and Responsible Choices’ informs everything from renewable energy and creating low carbon buildings to local community funds, supporting social mobility and paying London Living Wages.
+          - paragraph [ref=f83e377]: As a Storey customer, you’ll benefit from our experience, in-house expertise and tried-and-tested initiatives to help you meet or exceed your own sustainability goals and targets.
+          - link "#" [ref=f83e378] [cursor=pointer]:
+            - /url: https://www.britishland.com/sustainability/?utm_source=About+Storey&utm_medium=Website&utm_campaign=Storey
+            - text: Find out more
+    - generic [ref=f83e379]:
+      - generic [ref=f83e381]:
+        - heading "What our customers say" [level=2] [ref=f83e383]
+        - generic [ref=f83e385]:
+          - generic [ref=f83e386]:
+            - generic [ref=f83e388]: We're sorry, the image below is broken
+            - generic [ref=f83e389]:
+              - heading "Storey quickly accommodated us in a space that is bright, airy, and inspiring. With excellent transport connections, we’ve settled into our new home, which offers first-class amenities, flexible meeting rooms, and fantastic breakout areas." [level=4] [ref=f83e390]
+              - generic [ref=f83e391]:
+                - paragraph [ref=f83e392]: Gareth Sinnamon, Partner
+                - link "Stace" [ref=f83e393] [cursor=pointer]:
+                  - /url: https://www.stace.co.uk/
+                  - heading "Stace" [level=5] [ref=f83e394]
+          - generic [ref=f83e395]:
+            - generic [ref=f83e397]: We're sorry, the image below is broken
+            - generic [ref=f83e398]:
+              - heading "Our previous location served us well, but as our team grew, we needed more space. Moving to 100 Liverpool Street provided us with additional desks and an open-plan layout, making it easier to collaborate across our teams and work more efficiently. Thanks to our customer managers' support, we found Storey, a space that truly meets our needs." [level=4] [ref=f83e399]
+              - generic [ref=f83e400]:
+                - paragraph [ref=f83e401]: Paula Charles-Licorish, Practice Manager
+                - link "Arc Pensions Law" [ref=f83e402] [cursor=pointer]:
+                  - /url: https://arcpensionslaw.com/
+                  - heading "Arc Pensions Law" [level=5] [ref=f83e403]
+          - generic [ref=f83e404]:
+            - generic [ref=f83e406]: We're sorry, the image below is broken
+            - generic [ref=f83e407]:
+              - heading "We’re always happy to recommend Storey to colleagues and friends looking for a flexible, high-quality workplace. Storey offers a professional, inspiring atmosphere with the kind of amenities and community that enhance the working environment." [level=4] [ref=f83e408]
+              - generic [ref=f83e409]:
+                - paragraph [ref=f83e410]: Hannah Longley, Senior Legal Manager
+                - link "Sasol" [ref=f83e411] [cursor=pointer]:
+                  - /url: https://www.sasol.com/
+                  - heading "Sasol" [level=5] [ref=f83e412]
+          - generic [ref=f83e413]:
+            - generic [ref=f83e415]: We're sorry, the image below is broken
+            - generic [ref=f83e416]:
+              - heading "Our offices at Storey are a place we’re proud to bring our customers. The facilities are of a high standard and the Storey team provide a brilliant level of customer service." [level=4] [ref=f83e417]
+              - generic [ref=f83e418]:
+                - paragraph [ref=f83e419]: Simon Field, Procurement Director
+                - link "Hain Celestial" [ref=f83e420] [cursor=pointer]:
+                  - /url: https://www.hain.com/
+                  - heading "Hain Celestial" [level=5] [ref=f83e421]
+          - generic [ref=f83e422]:
+            - generic [ref=f83e424]: We're sorry, the image below is broken
+            - generic [ref=f83e425]:
+              - heading "Choosing Storey was an easy decision for us because of the location, the space and the high-quality product offered. We needed a flexible space to support Agile working, which Storey provides through our own office, shared spaces and access to Storey Club." [level=4] [ref=f83e426]
+              - generic [ref=f83e427]:
+                - paragraph [ref=f83e428]: Simon Blackall, Director Internal Communications & Operations
+                - link "Orange" [ref=f83e429] [cursor=pointer]:
+                  - /url: https://www.orange.com/en
+                  - heading "Orange" [level=5] [ref=f83e430]
+          - generic [ref=f83e431]:
+            - generic [ref=f83e433]: We're sorry, the image below is broken
+            - generic [ref=f83e434]:
+              - heading "We chose Storey for its great location and amenities, and we've really enjoyed our time here. Being part of the Storey community has been a positive experience — especially the convenience of our building’s location. We’d definitely recommend Storey to others." [level=4] [ref=f83e435]
+              - generic [ref=f83e436]:
+                - paragraph [ref=f83e437]: Ola Oyetayo, Co-Founder & CEO
+                - link "VertoFX" [ref=f83e438] [cursor=pointer]:
+                  - /url: https://www.vertofx.com/
+                  - heading "VertoFX" [level=5] [ref=f83e439]
+        - generic [ref=f83e441]:
+          - paragraph [ref=f83e442]: Customers
+          - generic [ref=f83e445]:
+            - img "Logo" [ref=f83e447]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e449]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e451]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e453]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e455]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e457]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e459]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e461]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e463]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e465]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e467]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e469]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e471]: We're sorry, the image below is broken
+            - img "Logo" [ref=f83e473]: We're sorry, the image below is broken
+      - generic [ref=f83e474]:
+        - generic [ref=f83e475]:
+          - heading "Want to know more?" [level=3] [ref=f83e476]
+          - generic [ref=f83e477]:
+            - heading "#" [level=6] [ref=f83e478]:
+              - link "#" [ref=f83e479] [cursor=pointer]:
+                - /url: tel:0800 0485 750
+                - text: 0800 0485 750
+            - heading "#" [level=6] [ref=f83e480]:
+              - link "#" [ref=f83e481] [cursor=pointer]:
+                - /url: mailto:workspace@britishland.com
+                - text: workspace@britishland.com
+          - link "#" [ref=f83e482] [cursor=pointer]:
+            - /url: /contact-us
+            - text: Contact us
+        - generic [ref=f83e483]:
+          - text: We're sorry, the image below is broken
+          - heading "Find a space to call your own" [level=2] [ref=f83e484]
+          - generic [ref=f83e485]:
+            - generic [ref=f83e486]:
+              - combobox [ref=f83e487]
+              - combobox "Workspace" [ref=f83e490] [cursor=pointer]:
+                - textbox "Workspace" [ref=f83e491]
+            - button "#" [ref=f83e492] [cursor=pointer]: Start Search
+  - contentinfo [ref=f83e493]:
+    - generic [ref=f83e494]:
+      - generic [ref=f83e495]:
+        - generic [ref=f83e496]:
+          - paragraph [ref=f83e497]: Quicklinks
+          - generic [ref=f83e498]:
+            - heading "#" [level=3] [ref=f83e499]:
+              - link "#" [ref=f83e500] [cursor=pointer]:
+                - /url: /workspace/
+                - text: Workspace
+            - heading "#" [level=3] [ref=f83e501]:
+              - link "#" [ref=f83e502] [cursor=pointer]:
+                - /url: /meeting-and-events/
+                - text: Meeting & Events spaces
+          - generic [ref=f83e503]:
+            - heading "#" [level=6] [ref=f83e504]:
+              - link "#" [ref=f83e505] [cursor=pointer]:
+                - /url: https://storey.co.uk/about-storey/
+                - text: About Storey
+            - heading "#" [level=6] [ref=f83e506]:
+              - link "#" [ref=f83e507] [cursor=pointer]:
+                - /url: https://storey.co.uk/contact-us/
+                - text: Contact Us
+            - heading "#" [level=6] [ref=f83e508]:
+              - link "#" [ref=f83e509] [cursor=pointer]:
+                - /url: https://my.storey.co.uk/login
+                - text: Login
+          - generic [ref=f83e510]:
+            - link "#" [ref=f83e511] [cursor=pointer]:
+              - /url: https://www.facebook.com/ThisIsStorey
+              - text: We're sorry, the image below is broken
+            - link "#" [ref=f83e512] [cursor=pointer]:
+              - /url: https://www.instagram.com/thisisstorey/
+              - text: We're sorry, the image below is broken
+            - link "#" [ref=f83e513] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/this-is-storey/
+              - text: We're sorry, the image below is broken
+        - generic [ref=f83e515]:
+          - link "#" [ref=f83e516] [cursor=pointer]:
+            - /url: https://storey.co.uk
+            - img [ref=f83e517]
+          - link "#" [ref=f83e519] [cursor=pointer]:
+            - /url: https://www.britishland.com/privacy-notice
+            - generic [ref=f83e520]: Privacy Notice
+          - link "#" [ref=f83e521] [cursor=pointer]:
+            - /url: https://www.britishland.com/terms-of-use/
+            - generic [ref=f83e522]: Terms of use
+          - link "#" [ref=f83e523] [cursor=pointer]:
+            - /url: /storey-club-meeting-room-event-space-terms-and-conditions/
+            - generic [ref=f83e524]: Terms & Conditions
+      - generic [ref=f83e525]:
+        - generic [ref=f83e526]:
+          - paragraph [ref=f83e527]: What our customers say
+          - generic [ref=f83e528]:
+            - generic [ref=f83e529]:
+              - heading "Storey quickly accommodated us in a space that is bright, airy, and inspiring. With excellent transport connections, we’ve settled into our new home, which offers first-class amenities, flexible meeting rooms, and fantastic breakout areas." [level=5] [ref=f83e530]
+              - heading "Our offices at Storey are a place we’re proud to bring our customers. Th facilities are of a high standard and the Storey team provide a brilliant level of customer service." [level=5]
+              - heading "We’re always happy to recommend Storey to colleagues and friends looking for a flexible, high-quality workplace. Storey offers a professional, inspiring atmosphere with the kind of amenities and community that enhance the working environment." [level=5]
+            - generic [ref=f83e531]:
+              - paragraph [ref=f83e532]:
+                - generic [ref=f83e533]:
+                  - text: Gareth Sinnamon
+                  - text: Stace
+              - paragraph:
+                - generic:
+                  - text: Simon Field
+                  - text: Hain Celestial
+              - paragraph:
+                - generic:
+                  - text: Hannah Longley
+                  - text: Sasol
+            - generic [ref=f83e534]:
+              - button "Quote 1"
+              - button "Quote 2" [ref=f83e535] [cursor=pointer]
+              - button "Quote 3" [ref=f83e536] [cursor=pointer]
+          - paragraph [ref=f83e537]: Storey Team
+          - generic [ref=f83e538]:
+            - paragraph [ref=f83e539]:
+              - link "#" [ref=f83e540] [cursor=pointer]:
+                - /url: tel:0800 0485 750
+                - text: 0800 0485 750
+            - paragraph [ref=f83e541]:
+              - link "#" [ref=f83e542] [cursor=pointer]:
+                - /url: mailto:workspace@britishland.com
+                - text: workspace@britishland.com
+            - paragraph [ref=f83e543]:
+              - link "Contact Us" [ref=f83e544] [cursor=pointer]:
+                - /url: https://storey.co.uk/contact/
+        - generic [ref=f83e545]:
+          - generic [ref=f83e546]:
+            - paragraph [ref=f83e547]:
+              - generic [ref=f83e548]:
+                - text: Brought to
+                - text: you by
+            - link "#" [ref=f83e549] [cursor=pointer]:
+              - /url: "#"
+              - text: We're sorry, the image below is broken
+            - paragraph [ref=f83e550]:
+              - generic [ref=f83e551]: "The British Land Company PLC. Registered in England. Company No: 621920. Registered Office: York House, 45 Seymour Street, London, W1H 7LX"
+          - generic [ref=f83e552]:
+            - paragraph [ref=f83e553]:
+              - generic [ref=f83e554]: Made by
+            - link "Web design & development by Mallard & Claret We're sorry, the image below is broken" [ref=f83e555] [cursor=pointer]:
+              - /url: https://mallardandclaret.com/
+              - generic [ref=f83e556]: Web design & development by Mallard & Claret
+              - text: We're sorry, the image below is broken
+            - link "View development case study for Storey" [ref=f83e557] [cursor=pointer]:
+              - /url: https://mallardandclaret.com/work/storey/

@@ -1,0 +1,489 @@
+- generic [active] [ref=f183e1]:
+  - generic [ref=f183e2]:
+    - banner [ref=f183e3]:
+      - generic [ref=f183e4]:
+        - link "STOREY" [ref=f183e5] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=f183e6]:
+          - link "Workspaces" [ref=f183e7] [cursor=pointer]:
+            - /url: /workspace/
+          - link "Meeting & Event spaces" [ref=f183e8] [cursor=pointer]:
+            - /url: /meeting-and-events/
+          - link "About Storey" [ref=f183e9] [cursor=pointer]:
+            - /url: /about-storey/
+        - generic [ref=f183e10]:
+          - button [ref=f183e11]:
+            - img [ref=f183e12]
+          - button [ref=f183e15]:
+            - img [ref=f183e16]
+          - link "Get in touch" [ref=f183e18] [cursor=pointer]:
+            - /url: /contact-us/
+          - link "Book meeting rooms" [ref=f183e19] [cursor=pointer]:
+            - /url: /meeting-and-events
+      - generic [ref=f183e20]:
+        - generic [ref=f183e21]:
+          - link "STOREY" [ref=f183e22] [cursor=pointer]:
+            - /url: /
+          - button "Close menu" [ref=f183e23]:
+            - img [ref=f183e24]
+        - navigation [ref=f183e26]:
+          - link "Workspaces" [ref=f183e27] [cursor=pointer]:
+            - /url: /workspace/
+          - link "Meeting & Event spaces" [ref=f183e28] [cursor=pointer]:
+            - /url: /meeting-and-events/
+          - link "About Storey" [ref=f183e29] [cursor=pointer]:
+            - /url: /about-storey/
+          - link "Get in touch" [ref=f183e30] [cursor=pointer]:
+            - /url: /contact-us/
+          - link "Book meeting rooms" [ref=f183e31] [cursor=pointer]:
+            - /url: /meeting-and-events
+        - generic [ref=f183e32]:
+          - generic [ref=f183e33]:
+            - link "Facebook" [ref=f183e34] [cursor=pointer]:
+              - /url: https://www.facebook.com/ThisIsStorey
+              - img [ref=f183e35]
+            - link "Instagram" [ref=f183e37] [cursor=pointer]:
+              - /url: https://www.instagram.com/thisisstorey/
+              - img [ref=f183e38]
+            - link "LinkedIn" [ref=f183e40] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/this-is-storey/
+              - img [ref=f183e41]
+          - generic [ref=f183e43]:
+            - link "0800 0485 750" [ref=f183e44] [cursor=pointer]:
+              - /url: tel:08000485750
+            - link "workspace@britishland.com" [ref=f183e45] [cursor=pointer]:
+              - /url: mailto:workspace@britishland.com
+    - main [ref=f183e46]:
+      - generic [ref=f183e48]:
+        - generic [ref=f183e49]:
+          - img [ref=f183e51]
+          - heading "Workspace" [level=1] [ref=f183e54]
+        - paragraph [ref=f183e55]: Flexible workspaces, for working better. On refreshingly simple leases, with clear pricing. And always at the heart of London's best-connected places.
+        - link "Meeting & Event Spaces" [ref=f183e57] [cursor=pointer]:
+          - /url: /meeting-and-events/
+          - img [ref=f183e59]
+          - text: Meeting & Event Spaces
+      - generic [ref=f183e61]:
+        - generic [ref=f183e63]:
+          - generic [ref=f183e64]:
+            - generic [ref=f183e65]:
+              - combobox [ref=f183e66] [cursor=pointer]:
+                - option "All location" [selected]
+                - option "Regent's Place, NW1"
+                - option "Norton Folgate, E1"
+                - option "Paddington Central, W2"
+                - option "Broadgate, EC2"
+                - option "Hackney, N1"
+              - img
+            - generic [ref=f183e67]:
+              - combobox [ref=f183e68] [cursor=pointer]:
+                - option "All capacity" [selected]
+                - option "0 to 19"
+                - option "20-39"
+                - option "40-50"
+                - option "50+"
+              - img
+            - generic [ref=f183e69]:
+              - combobox [ref=f183e70] [cursor=pointer]:
+                - option "Sq ft" [selected]
+                - option "0 - 1,500 Sq ft"
+                - option "1,500 - 3,000 Sq ft"
+                - option "3,000 - 8,000 Sq ft"
+              - img
+          - generic [ref=f183e71]:
+            - button "Available space" [ref=f183e72]
+            - button "Roof terrace" [ref=f183e73]
+            - button "Bookable meeting rooms" [ref=f183e74]
+            - button "Event Space" [ref=f183e75]
+            - button "Daily cleans" [ref=f183e76]
+            - button "Coffee machines" [ref=f183e77]
+            - button "Collaboration space" [ref=f183e78]
+            - button "Storey Club" [ref=f183e79]
+            - button "Phone booths" [ref=f183e80]
+            - button "Towels & hairdryers" [ref=f183e81]
+            - button "Bike parking" [ref=f183e82]
+            - button "Wi-Fi" [ref=f183e83]
+            - button "Showers" [ref=f183e84]
+          - generic [ref=f183e85]:
+            - generic [ref=f183e86]:
+              - button [ref=f183e87]:
+                - img [ref=f183e88]
+              - button [ref=f183e93]:
+                - img [ref=f183e94]
+            - generic [ref=f183e96]:
+              - generic [ref=f183e97]: Showing 9 results
+              - generic [ref=f183e98] [cursor=pointer]:
+                - checkbox "Showing available spaces only. Include fully let spaces." [checked] [ref=f183e99]
+                - generic [ref=f183e100]: Showing available spaces only. Include fully let spaces.
+        - generic [ref=f183e102]:
+          - generic [ref=f183e103]: Latest Availability
+          - generic [ref=f183e104]:
+            - link "6 Orsman Road Workspace Space Available 6 Orsman Road Hackney, N1 +3" [ref=f183e106] [cursor=pointer]:
+              - /url: /workspace/6-orsman-road
+              - img "6 Orsman Road" [ref=f183e108]
+              - generic [ref=f183e109]:
+                - generic [ref=f183e110]:
+                  - generic [ref=f183e111]: Workspace
+                  - generic [ref=f183e112]: Space Available
+                - heading "6 Orsman Road" [level=3] [ref=f183e113]
+                - paragraph [ref=f183e114]: Hackney, N1
+                - generic [ref=f183e116]: "+3"
+            - link "4 Kingdom Street Workspace Space Available 4 Kingdom Street Paddington Central, W2 +2" [ref=f183e118] [cursor=pointer]:
+              - /url: /workspace/4-kingdom-street
+              - img "4 Kingdom Street" [ref=f183e120]
+              - generic [ref=f183e121]:
+                - generic [ref=f183e122]:
+                  - generic [ref=f183e123]: Workspace
+                  - generic [ref=f183e124]: Space Available
+                - heading "4 Kingdom Street" [level=3] [ref=f183e125]
+                - paragraph [ref=f183e126]: Paddington Central, W2
+                - generic [ref=f183e128]: "+2"
+            - link "2 Kingdom Street Workspace Space Available 2 Kingdom Street Paddington Central, W2 +2" [ref=f183e130] [cursor=pointer]:
+              - /url: /workspace/2-kingdom-street
+              - img "2 Kingdom Street" [ref=f183e132]
+              - generic [ref=f183e133]:
+                - generic [ref=f183e134]:
+                  - generic [ref=f183e135]: Workspace
+                  - generic [ref=f183e136]: Space Available
+                - heading "2 Kingdom Street" [level=3] [ref=f183e137]
+                - paragraph [ref=f183e138]: Paddington Central, W2
+                - generic [ref=f183e140]: "+2"
+            - link "338 Euston Road Workspace Space Available 338 Euston Road Regent's Place, NW1 +3" [ref=f183e142] [cursor=pointer]:
+              - /url: /workspace/338-euston-road
+              - img "338 Euston Road" [ref=f183e144]
+              - generic [ref=f183e145]:
+                - generic [ref=f183e146]:
+                  - generic [ref=f183e147]: Workspace
+                  - generic [ref=f183e148]: Space Available
+                - heading "338 Euston Road" [level=3] [ref=f183e149]
+                - paragraph [ref=f183e150]: Regent's Place, NW1
+                - generic [ref=f183e152]: "+3"
+            - link "1 Triton Square Workspace Space Available 1 Triton Square Regent's Place, NW1 +3" [ref=f183e154] [cursor=pointer]:
+              - /url: /workspace/1-triton-square
+              - img "1 Triton Square" [ref=f183e156]
+              - generic [ref=f183e157]:
+                - generic [ref=f183e158]:
+                  - generic [ref=f183e159]: Workspace
+                  - generic [ref=f183e160]: Space Available
+                - heading "1 Triton Square" [level=3] [ref=f183e161]
+                - paragraph [ref=f183e162]: Regent's Place, NW1
+                - generic [ref=f183e164]: "+3"
+            - link "Nicholls & Clarke Workspace Space Available Nicholls & Clarke Norton Folgate, E1 +3" [ref=f183e166] [cursor=pointer]:
+              - /url: /workspace/nicholls-clarke
+              - img "Nicholls & Clarke" [ref=f183e168]
+              - generic [ref=f183e169]:
+                - generic [ref=f183e170]:
+                  - generic [ref=f183e171]: Workspace
+                  - generic [ref=f183e172]: Space Available
+                - heading "Nicholls & Clarke" [level=3] [ref=f183e173]
+                - paragraph [ref=f183e174]: Norton Folgate, E1
+                - generic [ref=f183e176]: "+3"
+            - link "100 Liverpool Street Workspace Space Available 100 Liverpool Street Broadgate, EC2 +3" [ref=f183e178] [cursor=pointer]:
+              - /url: /workspace/100-liverpool-street
+              - img "100 Liverpool Street" [ref=f183e180]
+              - generic [ref=f183e181]:
+                - generic [ref=f183e182]:
+                  - generic [ref=f183e183]: Workspace
+                  - generic [ref=f183e184]: Space Available
+                - heading "100 Liverpool Street" [level=3] [ref=f183e185]
+                - paragraph [ref=f183e186]: Broadgate, EC2
+                - generic [ref=f183e188]: "+3"
+            - link "1 Finsbury Avenue Workspace Space Available 1 Finsbury Avenue Broadgate, EC2 +3" [ref=f183e190] [cursor=pointer]:
+              - /url: /workspace/1-finsbury-avenue
+              - img "1 Finsbury Avenue" [ref=f183e192]
+              - generic [ref=f183e193]:
+                - generic [ref=f183e194]:
+                  - generic [ref=f183e195]: Workspace
+                  - generic [ref=f183e196]: Space Available
+                - heading "1 Finsbury Avenue" [level=3] [ref=f183e197]
+                - paragraph [ref=f183e198]: Broadgate, EC2
+                - generic [ref=f183e200]: "+3"
+            - link "Broadgate Tower Workspace Space Available Broadgate Tower Broadgate, EC2 +2" [ref=f183e202] [cursor=pointer]:
+              - /url: /workspace/broadgate-tower
+              - img "Broadgate Tower" [ref=f183e204]
+              - generic [ref=f183e205]:
+                - generic [ref=f183e206]:
+                  - generic [ref=f183e207]: Workspace
+                  - generic [ref=f183e208]: Space Available
+                - heading "Broadgate Tower" [level=3] [ref=f183e209]
+                - paragraph [ref=f183e210]: Broadgate, EC2
+                - generic [ref=f183e212]: "+2"
+        - generic [ref=f183e217]:
+          - generic [ref=f183e218]:
+            - heading "This is Storey. Work. Meet. Host" [level=2] [ref=f183e219]
+            - paragraph [ref=f183e220]: Flexible spaces, for working better.
+          - link "Enquire now" [ref=f183e221] [cursor=pointer]:
+            - /url: /contact-us/
+      - generic [ref=f183e222]:
+        - img [ref=f183e224]
+        - generic [ref=f183e226]:
+          - generic [ref=f183e227]:
+            - heading "Storey Club" [level=2] [ref=f183e228]
+            - heading "Meet. Host. Collaborate." [level=3] [ref=f183e229]
+            - paragraph [ref=f183e230]: Book meeting and event space, whoever you need it. In two landmark locations
+            - link "Find out more" [ref=f183e231] [cursor=pointer]:
+              - /url: /storey-club
+              - img [ref=f183e233]
+              - text: Find out more
+          - generic [ref=f183e235]:
+            - button [ref=f183e238]:
+              - img [ref=f183e239]
+            - generic [ref=f183e242]:
+              - heading "Enjoy access to additional meeting and event space at two of British Land's campuses; Broadgate and Paddington Central" [level=4] [ref=f183e243]
+              - paragraph [ref=f183e244]: Whichever Storey you call home, you can book meeting rooms, host events, or drop in to work from inspiring shared spaces across both buildings.
+              - generic [ref=f183e245]:
+                - link "Storey Club Broadgate" [ref=f183e246] [cursor=pointer]:
+                  - /url: /storey-club/broadgate
+                - link "Storey Club Paddington" [ref=f183e247] [cursor=pointer]:
+                  - /url: /storey-club/paddington
+      - generic [ref=f183e249]:
+        - generic [ref=f183e250]:
+          - generic [ref=f183e251]:
+            - heading "Get in Contact" [level=4] [ref=f183e252]
+            - link "0800 0485 750" [ref=f183e253] [cursor=pointer]:
+              - /url: tel:08000485750
+            - link "workspace@britishland.com" [ref=f183e254] [cursor=pointer]:
+              - /url: mailto:workspace@britishland.com
+            - generic [ref=f183e255]:
+              - link "Facebook" [ref=f183e256] [cursor=pointer]:
+                - /url: https://www.facebook.com/ThisIsStorey
+                - img "Facebook" [ref=f183e257]
+              - link "Instagram" [ref=f183e258] [cursor=pointer]:
+                - /url: https://www.instagram.com/thisisstorey/
+                - img "Instagram" [ref=f183e259]
+              - link "LinkedIn" [ref=f183e260] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/this-is-storey/
+                - img "LinkedIn" [ref=f183e261]
+          - generic [ref=f183e262]:
+            - paragraph [ref=f183e263]: Find a space to call your own
+            - generic [ref=f183e264]:
+              - button "Workspace" [ref=f183e265]
+              - button "Meeting space" [ref=f183e266]
+              - button "Event space" [ref=f183e267]
+            - generic [ref=f183e268]:
+              - generic [ref=f183e269]:
+                - generic [ref=f183e270]: Workspace
+                - img [ref=f183e271]
+              - button "Start Search" [ref=f183e273]
+          - link "Enquire now" [ref=f183e275] [cursor=pointer]:
+            - /url: /contact-us/
+        - generic [ref=f183e276]:
+          - heading "Your Details" [level=3] [ref=f183e277]
+          - generic [ref=f183e278]:
+            - generic [ref=f183e279]:
+              - textbox "First name*" [ref=f183e280]
+              - textbox "Last name*" [ref=f183e281]
+            - generic [ref=f183e282]:
+              - textbox "Contact email*" [ref=f183e283]
+              - textbox "Contact number*" [ref=f183e284]
+            - textbox "Company*" [ref=f183e286]
+            - combobox [ref=f183e288]:
+              - option "How did you hear about us?" [selected]
+              - option "Advertisement"
+              - option "Another Company's Website"
+              - option "Blog"
+              - option "Event"
+              - option "Search Engines"
+              - option "Social Media"
+              - option "Video"
+              - option "Word of Mouth"
+              - option "Other"
+            - combobox [ref=f183e290]:
+              - option "How many people will work in your new office?" [selected]
+              - option "1 - 9"
+              - option "10 - 19"
+              - option "20 - 39"
+              - option "40 - 69"
+              - option "70 - 99"
+              - option "100+"
+            - generic [ref=f183e291]:
+              - paragraph [ref=f183e292]: Please let us know any additional information
+              - textbox "Please mention any specific floor numbers or additional information here..." [ref=f183e293]
+            - button "Submit Enquiry" [ref=f183e294]
+      - generic [ref=f183e296]:
+        - generic [ref=f183e297]:
+          - heading "What makes Storey Special" [level=2] [ref=f183e298]
+          - paragraph [ref=f183e299]: The flexibility. The shared spaces. The personalisation. And the simple, straightforward leases.
+          - link "Find out more" [ref=f183e300] [cursor=pointer]:
+            - /url: /about-storey/
+            - img [ref=f183e302]
+            - text: Find out more
+        - generic [ref=f183e304]:
+          - paragraph [ref=f183e305]: The Storey Way
+          - generic [ref=f183e306]:
+            - generic [ref=f183e307]:
+              - button "Flexible, ready-to-use workspaces" [ref=f183e308]:
+                - heading "Flexible, ready-to-use workspaces" [level=5] [ref=f183e309]
+                - img [ref=f183e310]
+              - paragraph [ref=f183e313]: Step into carefully and sustainably designed spaces from day one. No need to manage a complex fit-out, maintenance or set-up thanks to our expert teams.
+            - button "On-site facilities" [ref=f183e315]:
+              - heading "On-site facilities" [level=5] [ref=f183e316]
+              - img [ref=f183e317]
+            - button "Expert relationship teams" [ref=f183e320]:
+              - heading "Expert relationship teams" [level=5] [ref=f183e321]
+              - img [ref=f183e322]
+            - button "Building features" [ref=f183e325]:
+              - heading "Building features" [level=5] [ref=f183e326]
+              - img [ref=f183e327]
+            - button "Easy transport links" [ref=f183e330]:
+              - heading "Easy transport links" [level=5] [ref=f183e331]
+              - img [ref=f183e332]
+            - button "Local amenities" [ref=f183e335]:
+              - heading "Local amenities" [level=5] [ref=f183e336]
+              - img [ref=f183e337]
+            - button "Community and events" [ref=f183e340]:
+              - heading "Community and events" [level=5] [ref=f183e341]
+              - img [ref=f183e342]
+        - img "Storey workspace" [ref=f183e346]
+      - generic [ref=f183e348]:
+        - table [ref=f183e350]:
+          - rowgroup [ref=f183e351]:
+            - row "Storey vs. a traditional office Benefits Traditional office Traditional office Storey Storey" [ref=f183e352]:
+              - columnheader "Storey vs. a traditional office Benefits" [ref=f183e353]:
+                - heading "Storey vs. a traditional office" [level=2] [ref=f183e354]
+                - heading "Benefits" [level=5] [ref=f183e355]
+              - columnheader "Traditional office Traditional office" [ref=f183e356]:
+                - img "Traditional office" [ref=f183e358]
+                - heading "Traditional office" [level=5] [ref=f183e359]
+              - columnheader "Storey Storey" [ref=f183e360]:
+                - img "Storey" [ref=f183e362]
+                - heading "Storey" [level=5] [ref=f183e363]
+          - rowgroup [ref=f183e364]:
+            - row "Flexible leasing options" [ref=f183e365]:
+              - cell "Flexible leasing options" [ref=f183e366]
+              - cell [ref=f183e367]:
+                - img [ref=f183e368]
+              - cell [ref=f183e370]:
+                - img [ref=f183e371]
+            - row "Access to Storey Club" [ref=f183e373]:
+              - cell "Access to Storey Club" [ref=f183e374]
+              - cell [ref=f183e375]:
+                - img [ref=f183e376]
+              - cell [ref=f183e378]:
+                - img [ref=f183e379]
+            - row "Sustainable workspaces" [ref=f183e381]:
+              - cell "Sustainable workspaces" [ref=f183e382]
+              - cell [ref=f183e383]:
+                - img [ref=f183e384]
+              - cell [ref=f183e386]:
+                - img [ref=f183e387]
+            - row "Building end of trip facilities" [ref=f183e389]:
+              - cell "Building end of trip facilities" [ref=f183e390]
+              - cell [ref=f183e391]:
+                - img [ref=f183e392]
+              - cell [ref=f183e394]:
+                - img [ref=f183e395]
+            - row "Fully furnished" [ref=f183e397]:
+              - cell "Fully furnished" [ref=f183e398]
+              - cell [ref=f183e399]:
+                - img [ref=f183e400]
+              - cell [ref=f183e402]:
+                - img [ref=f183e403]
+            - row "Access to 10GB fibre internet" [ref=f183e405]:
+              - cell "Access to 10GB fibre internet" [ref=f183e406]
+              - cell [ref=f183e407]:
+                - img [ref=f183e408]
+              - cell [ref=f183e410]:
+                - img [ref=f183e411]
+            - row "Fixed monthly cost" [ref=f183e413]:
+              - cell "Fixed monthly cost" [ref=f183e414]
+              - cell [ref=f183e415]:
+                - img [ref=f183e416]
+              - cell [ref=f183e418]:
+                - img [ref=f183e419]
+            - row "Fully managed" [ref=f183e421]:
+              - cell "Fully managed" [ref=f183e422]
+              - cell [ref=f183e423]:
+                - img [ref=f183e424]
+              - cell [ref=f183e426]:
+                - img [ref=f183e427]
+            - row "Wi-Fi connectivity" [ref=f183e429]:
+              - cell "Wi-Fi connectivity" [ref=f183e430]
+              - cell [ref=f183e431]:
+                - img [ref=f183e432]
+              - cell [ref=f183e434]:
+                - img [ref=f183e435]
+            - row "Health & safety support" [ref=f183e437]:
+              - cell "Health & safety support" [ref=f183e438]
+              - cell [ref=f183e439]:
+                - img [ref=f183e440]
+              - cell [ref=f183e442]:
+                - img [ref=f183e443]
+            - row "M&E maintenance" [ref=f183e445]:
+              - cell "M&E maintenance" [ref=f183e446]
+              - cell [ref=f183e447]:
+                - img [ref=f183e448]
+              - cell [ref=f183e450]:
+                - img [ref=f183e451]
+            - row "Community Manager" [ref=f183e453]:
+              - cell "Community Manager" [ref=f183e454]
+              - cell [ref=f183e455]:
+                - img [ref=f183e456]
+              - cell [ref=f183e458]:
+                - img [ref=f183e459]
+        - link "Enquire now" [ref=f183e462] [cursor=pointer]:
+          - /url: /contact-us/
+      - generic [ref=f183e464]:
+        - heading "“Storey quickly accommodated us in a space that is bright, airy, and inspiring. With excellent transport connections, we've settled into our new home, which offers first-class amenities, flexible meeting rooms, and fantastic breakout areas.”" [level=5] [ref=f183e466]
+        - paragraph [ref=f183e468]:
+          - text: Gareth Sinnamon
+          - text: Stace
+        - generic [ref=f183e469]:
+          - button "Go to quote 1" [ref=f183e470]
+          - button "Go to quote 2" [ref=f183e471]
+          - button "Go to quote 3" [ref=f183e472]
+    - contentinfo [ref=f183e473]:
+      - generic [ref=f183e474]:
+        - generic [ref=f183e475]:
+          - generic [ref=f183e476]:
+            - paragraph [ref=f183e477]: Quicklinks
+            - generic [ref=f183e478]:
+              - link "Workspace" [ref=f183e479] [cursor=pointer]:
+                - /url: /workspace
+              - link "Meeting & Events spaces" [ref=f183e480] [cursor=pointer]:
+                - /url: /meeting-and-events
+            - generic [ref=f183e481]:
+              - link "About Storey" [ref=f183e482] [cursor=pointer]:
+                - /url: /about-storey
+              - link "Contact Us" [ref=f183e483] [cursor=pointer]:
+                - /url: /contact-us
+              - link "Login" [ref=f183e484] [cursor=pointer]:
+                - /url: https://my.storey.co.uk/login
+            - generic [ref=f183e485]:
+              - link "Privacy Notice" [ref=f183e486] [cursor=pointer]:
+                - /url: https://www.britishland.com/privacy-notice
+              - link "Terms of use" [ref=f183e487] [cursor=pointer]:
+                - /url: https://www.britishland.com/terms-of-use/
+              - link "Terms & Conditions" [ref=f183e488] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f183e489]:
+              - link [ref=f183e490] [cursor=pointer]:
+                - /url: https://www.facebook.com/ThisIsStorey
+                - img [ref=f183e491]
+              - link [ref=f183e493] [cursor=pointer]:
+                - /url: https://www.instagram.com/thisisstorey/
+                - img [ref=f183e494]
+              - link [ref=f183e496] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/this-is-storey/
+                - img [ref=f183e497]
+          - generic [ref=f183e499]:
+            - paragraph [ref=f183e500]: What our customers say
+            - generic [ref=f183e501]:
+              - paragraph [ref=f183e502]: "\"Storey quickly accommodated us in a space that is bright, airy, and inspiring. With excellent transport connections, we've settled into our new home, which offers first-class amenities, flexible meeting rooms, and fantastic breakout areas.\""
+              - paragraph [ref=f183e503]: Gareth Sinnamon, Partner
+            - paragraph [ref=f183e504]: Storey Team
+            - generic [ref=f183e505]:
+              - link "0800 0485 750" [ref=f183e506] [cursor=pointer]:
+                - /url: tel:08000485750
+              - link "workspace@britishland.com" [ref=f183e507] [cursor=pointer]:
+                - /url: mailto:workspace@britishland.com
+              - link "Contact Us" [ref=f183e508] [cursor=pointer]:
+                - /url: /contact-us
+        - generic [ref=f183e510]:
+          - img [ref=f183e511]
+          - generic [ref=f183e522]:
+            - img "British Land" [ref=f183e523]
+            - img "Mallard & Claret" [ref=f183e524]
+  - button "Open Next.js Dev Tools" [ref=f183e530] [cursor=pointer]:
+    - img [ref=f183e531]
+  - alert [ref=f183e534]

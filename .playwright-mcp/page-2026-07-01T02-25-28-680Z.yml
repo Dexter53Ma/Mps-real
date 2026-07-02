@@ -1,0 +1,200 @@
+- generic [active] [ref=f148e1]:
+  - generic [ref=f148e2]:
+    - banner [ref=f148e3]:
+      - generic [ref=f148e4]:
+        - link "STOREY" [ref=f148e5] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=f148e6]:
+          - link "Workspaces" [ref=f148e7] [cursor=pointer]:
+            - /url: /workspace/
+          - link "Meeting & Event spaces" [ref=f148e8] [cursor=pointer]:
+            - /url: /meeting-and-events/
+          - link "About Storey" [ref=f148e9] [cursor=pointer]:
+            - /url: /about-storey/
+        - generic [ref=f148e10]:
+          - button [ref=f148e11]:
+            - img [ref=f148e12]
+          - button [ref=f148e15]:
+            - img [ref=f148e16]
+          - link "Get in touch" [ref=f148e18] [cursor=pointer]:
+            - /url: /contact-us/
+          - link "Book meeting rooms" [ref=f148e19] [cursor=pointer]:
+            - /url: /meeting-and-events
+      - generic [ref=f148e20]:
+        - generic [ref=f148e21]:
+          - link "STOREY" [ref=f148e22] [cursor=pointer]:
+            - /url: /
+          - button "Close menu" [ref=f148e23]:
+            - img [ref=f148e24]
+        - navigation [ref=f148e26]:
+          - link "Workspaces" [ref=f148e27] [cursor=pointer]:
+            - /url: /workspace/
+          - link "Meeting & Event spaces" [ref=f148e28] [cursor=pointer]:
+            - /url: /meeting-and-events/
+          - link "About Storey" [ref=f148e29] [cursor=pointer]:
+            - /url: /about-storey/
+          - link "Get in touch" [ref=f148e30] [cursor=pointer]:
+            - /url: /contact-us/
+          - link "Book meeting rooms" [ref=f148e31] [cursor=pointer]:
+            - /url: /meeting-and-events
+        - generic [ref=f148e32]:
+          - generic [ref=f148e33]:
+            - link "Facebook" [ref=f148e34] [cursor=pointer]:
+              - /url: https://www.facebook.com/ThisIsStorey
+              - img [ref=f148e35]
+            - link "Instagram" [ref=f148e37] [cursor=pointer]:
+              - /url: https://www.instagram.com/thisisstorey/
+              - img [ref=f148e38]
+            - link "LinkedIn" [ref=f148e40] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/this-is-storey/
+              - img [ref=f148e41]
+          - generic [ref=f148e43]:
+            - link "0800 0485 750" [ref=f148e44] [cursor=pointer]:
+              - /url: tel:08000485750
+            - link "workspace@britishland.com" [ref=f148e45] [cursor=pointer]:
+              - /url: mailto:workspace@britishland.com
+    - main [ref=f148e46]:
+      - generic [ref=f148e47]:
+        - img [ref=f148e48]
+        - generic [ref=f148e50]:
+          - heading "Get in touch" [level=1] [ref=f148e51]
+          - generic [ref=f148e52]:
+            - link "Workspace" [ref=f148e53] [cursor=pointer]:
+              - /url: /workspace
+            - link "Event space" [ref=f148e54] [cursor=pointer]:
+              - /url: /event-space
+            - link "Meeting space" [ref=f148e55] [cursor=pointer]:
+              - /url: /meeting-space
+      - generic [ref=f148e57]:
+        - generic [ref=f148e58]:
+          - generic [ref=f148e59]:
+            - heading "Get in Contact" [level=4] [ref=f148e60]
+            - generic [ref=f148e61]:
+              - link "0800 0485 750" [ref=f148e62] [cursor=pointer]:
+                - /url: tel:08000485750
+              - link "workspace@britishland.com" [ref=f148e63] [cursor=pointer]:
+                - /url: mailto:workspace@britishland.com
+            - generic [ref=f148e64]:
+              - link "Facebook" [ref=f148e65] [cursor=pointer]:
+                - /url: https://www.facebook.com/ThisIsStorey
+                - img "Facebook" [ref=f148e66]
+              - link "Instagram" [ref=f148e67] [cursor=pointer]:
+                - /url: https://www.instagram.com/thisisstorey/
+                - img "Instagram" [ref=f148e68]
+              - link "LinkedIn" [ref=f148e69] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/this-is-storey/
+                - img "LinkedIn" [ref=f148e70]
+          - generic [ref=f148e71]:
+            - heading "Find a space to call your own" [level=4] [ref=f148e72]
+            - generic [ref=f148e73]:
+              - combobox [ref=f148e74] [cursor=pointer]:
+                - option "All locations" [selected]
+                - option "Norton Folgate"
+                - option "Broadgate"
+                - option "Regent's Place"
+                - option "Paddington Central"
+              - combobox [ref=f148e75] [cursor=pointer]:
+                - option "Workspace" [selected]
+                - option "Meeting space"
+                - option "Event space"
+              - button "Start Search" [ref=f148e76]
+        - generic [ref=f148e77]:
+          - heading "Enquire now" [level=5] [ref=f148e78]
+          - paragraph [ref=f148e79]: If you would like to enquire about workspace at Storey, get in touch via the form below.
+          - generic [ref=f148e80]:
+            - heading "Your Details" [level=6] [ref=f148e81]
+            - generic [ref=f148e82]:
+              - textbox "First name*" [ref=f148e83]
+              - textbox "Last name*" [ref=f148e84]
+            - generic [ref=f148e85]:
+              - textbox "Contact email*" [ref=f148e86]
+              - textbox "Contact number*" [ref=f148e87]
+            - textbox "Company*" [ref=f148e88]
+            - combobox [ref=f148e89] [cursor=pointer]:
+              - option "How did you hear about us?" [selected]
+              - option "Advertisement"
+              - option "Another Company's Website"
+              - option "Blog"
+              - option "Event"
+              - option "Search Engines"
+              - option "Social Media"
+              - option "Video"
+              - option "Word of Mouth"
+              - option "Other"
+            - paragraph [ref=f148e90]: How many people will work in your new office?
+            - generic [ref=f148e91]:
+              - generic [ref=f148e92] [cursor=pointer]:
+                - radio "1 - 9" [checked] [ref=f148e93]
+                - generic [ref=f148e94]: 1 - 9
+              - generic [ref=f148e95] [cursor=pointer]:
+                - radio "10 - 19" [ref=f148e96]
+                - generic [ref=f148e97]: 10 - 19
+              - generic [ref=f148e98] [cursor=pointer]:
+                - radio "20 - 39" [ref=f148e99]
+                - generic [ref=f148e100]: 20 - 39
+              - generic [ref=f148e101] [cursor=pointer]:
+                - radio "40 - 69" [ref=f148e102]
+                - generic [ref=f148e103]: 40 - 69
+              - generic [ref=f148e104] [cursor=pointer]:
+                - radio "70 - 99" [ref=f148e105]
+                - generic [ref=f148e106]: 70 - 99
+              - generic [ref=f148e107] [cursor=pointer]:
+                - radio "100+" [ref=f148e108]
+                - generic [ref=f148e109]: 100+
+            - paragraph [ref=f148e110]: Please let us know any additional information
+            - textbox "Please mention any specific floor numbers or additional information here..." [ref=f148e111]
+            - button "Submit" [ref=f148e112]
+    - contentinfo [ref=f148e113]:
+      - generic [ref=f148e114]:
+        - generic [ref=f148e115]:
+          - generic [ref=f148e116]:
+            - paragraph [ref=f148e117]: Quicklinks
+            - generic [ref=f148e118]:
+              - link "Workspace" [ref=f148e119] [cursor=pointer]:
+                - /url: /workspace
+              - link "Meeting & Events spaces" [ref=f148e120] [cursor=pointer]:
+                - /url: /meeting-and-events
+            - generic [ref=f148e121]:
+              - link "About Storey" [ref=f148e122] [cursor=pointer]:
+                - /url: /about-storey
+              - link "Contact Us" [ref=f148e123] [cursor=pointer]:
+                - /url: /contact-us
+              - link "Login" [ref=f148e124] [cursor=pointer]:
+                - /url: https://my.storey.co.uk/login
+            - generic [ref=f148e125]:
+              - link "Privacy Notice" [ref=f148e126] [cursor=pointer]:
+                - /url: https://www.britishland.com/privacy-notice
+              - link "Terms of use" [ref=f148e127] [cursor=pointer]:
+                - /url: https://www.britishland.com/terms-of-use/
+              - link "Terms & Conditions" [ref=f148e128] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f148e129]:
+              - link [ref=f148e130] [cursor=pointer]:
+                - /url: https://www.facebook.com/ThisIsStorey
+                - img [ref=f148e131]
+              - link [ref=f148e133] [cursor=pointer]:
+                - /url: https://www.instagram.com/thisisstorey/
+                - img [ref=f148e134]
+              - link [ref=f148e136] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/this-is-storey/
+                - img [ref=f148e137]
+          - generic [ref=f148e139]:
+            - paragraph [ref=f148e140]: What our customers say
+            - generic [ref=f148e141]:
+              - paragraph [ref=f148e142]: "\"Storey quickly accommodated us in a space that is bright, airy, and inspiring. With excellent transport connections, we've settled into our new home, which offers first-class amenities, flexible meeting rooms, and fantastic breakout areas.\""
+              - paragraph [ref=f148e143]: Gareth Sinnamon, Partner
+            - paragraph [ref=f148e144]: Storey Team
+            - generic [ref=f148e145]:
+              - link "0800 0485 750" [ref=f148e146] [cursor=pointer]:
+                - /url: tel:08000485750
+              - link "workspace@britishland.com" [ref=f148e147] [cursor=pointer]:
+                - /url: mailto:workspace@britishland.com
+              - link "Contact Us" [ref=f148e148] [cursor=pointer]:
+                - /url: /contact-us
+        - generic [ref=f148e150]:
+          - img [ref=f148e151]
+          - generic [ref=f148e162]:
+            - img "British Land" [ref=f148e163]
+            - img "Mallard & Claret" [ref=f148e164]
+  - button "Open Next.js Dev Tools" [ref=f148e170] [cursor=pointer]:
+    - img [ref=f148e171]

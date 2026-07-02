@@ -1,0 +1,138 @@
+- generic [active] [ref=f27e1]:
+  - banner [ref=f27e2]:
+    - generic [ref=f27e3]:
+      - link "S TOREY" [ref=f27e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f27e5]:
+          - generic [ref=f27e6]: S
+          - img [ref=f27e7]
+          - generic [ref=f27e9]: TOREY
+      - button "Menu" [ref=f27e10]:
+        - img [ref=f27e11]
+  - generic [ref=f27e13]:
+    - generic [ref=f27e14]:
+      - link "S TOREY" [ref=f27e15] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f27e16]:
+          - generic [ref=f27e17]: S
+          - img [ref=f27e18]
+          - generic [ref=f27e20]: TOREY
+      - button "Close menu" [ref=f27e21]:
+        - img [ref=f27e22]
+    - navigation [ref=f27e24]:
+      - link "Workspaces" [ref=f27e25] [cursor=pointer]:
+        - /url: /workspace/
+      - link "Meeting & Event spaces" [ref=f27e26] [cursor=pointer]:
+        - /url: /meeting-and-events/
+      - link "About Storey" [ref=f27e27] [cursor=pointer]:
+        - /url: /about-storey/
+    - generic [ref=f27e28]:
+      - generic [ref=f27e29]:
+        - link "Get in touch" [ref=f27e30] [cursor=pointer]:
+          - /url: /contact-us/
+        - link "Book meeting rooms" [ref=f27e31] [cursor=pointer]:
+          - /url: /meeting-and-events
+      - generic [ref=f27e32]:
+        - link "Facebook" [ref=f27e33] [cursor=pointer]:
+          - /url: https://www.facebook.com/ThisIsStorey
+          - img [ref=f27e34]
+        - link "Instagram" [ref=f27e36] [cursor=pointer]:
+          - /url: https://www.instagram.com/thisisstorey/
+          - img [ref=f27e37]
+        - link "LinkedIn" [ref=f27e39] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/this-is-storey/
+          - img [ref=f27e40]
+      - generic [ref=f27e42]:
+        - link "0800 0485 750" [ref=f27e43] [cursor=pointer]:
+          - /url: tel:08000485750
+        - link "workspace@britishland.com" [ref=f27e44] [cursor=pointer]:
+          - /url: mailto:workspace@britishland.com
+  - main [ref=f27e45]:
+    - generic [ref=f27e46]:
+      - generic:
+        - img
+      - generic [ref=f27e47]:
+        - heading "Our Latest Storey" [level=1] [ref=f27e48]
+        - paragraph [ref=f27e49]: A collection of updates from our colleagues and experienced partners
+    - link [ref=f27e52] [cursor=pointer]:
+      - /url: /londons-most-exciting-new-flexible-workspace
+      - article [ref=f27e53]:
+        - img "London's most exciting new flexible workspace" [ref=f27e55]
+        - generic [ref=f27e56]:
+          - generic [ref=f27e57]: Storey
+          - heading "London's most exciting new flexible workspace" [level=3] [ref=f27e58]
+    - generic [ref=f27e60]:
+      - link [ref=f27e61] [cursor=pointer]:
+        - /url: /how-to-boost-wellbeing-in-your-workspace
+        - article [ref=f27e62]:
+          - img "How to boost wellbeing in your workspace" [ref=f27e64]
+          - generic [ref=f27e65]:
+            - generic [ref=f27e66]: Storey
+            - heading "How to boost wellbeing in your workspace" [level=3] [ref=f27e67]
+      - link [ref=f27e68] [cursor=pointer]:
+        - /url: /seven-things-you-need-to-consider-when-choosing-the-right-workspace-for-you
+        - article [ref=f27e69]:
+          - img "Seven things you need to consider when choosing the right workspace for you" [ref=f27e71]
+          - generic [ref=f27e72]:
+            - generic [ref=f27e73]: Latest Storey
+            - heading "Seven things you need to consider when choosing the right workspace for you" [level=3] [ref=f27e74]
+    - button "Load more" [ref=f27e76] [cursor=pointer]
+  - contentinfo [ref=f27e77]:
+    - generic [ref=f27e78]:
+      - generic [ref=f27e79]:
+        - generic [ref=f27e80]:
+          - paragraph [ref=f27e81]: Quicklinks
+          - generic [ref=f27e82]:
+            - link "Workspace" [ref=f27e83] [cursor=pointer]:
+              - /url: /workspace
+            - link "Meeting & Events spaces" [ref=f27e84] [cursor=pointer]:
+              - /url: /meeting-and-events
+          - generic [ref=f27e85]:
+            - link "About Storey" [ref=f27e86] [cursor=pointer]:
+              - /url: /about-storey
+            - link "Contact Us" [ref=f27e87] [cursor=pointer]:
+              - /url: /contact-us
+            - link "Login" [ref=f27e88] [cursor=pointer]:
+              - /url: https://my.storey.co.uk/login
+          - generic [ref=f27e89]:
+            - link "Privacy Notice" [ref=f27e90] [cursor=pointer]:
+              - /url: https://www.britishland.com/privacy-notice
+            - link "Terms of use" [ref=f27e91] [cursor=pointer]:
+              - /url: https://www.britishland.com/terms-of-use/
+            - link "Terms & Conditions" [ref=f27e92] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f27e93]:
+            - link [ref=f27e94] [cursor=pointer]:
+              - /url: https://www.facebook.com/ThisIsStorey
+              - img [ref=f27e95]
+            - link [ref=f27e97] [cursor=pointer]:
+              - /url: https://www.instagram.com/thisisstorey/
+              - img [ref=f27e98]
+            - link [ref=f27e100] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/this-is-storey/
+              - img [ref=f27e101]
+        - generic [ref=f27e103]:
+          - paragraph [ref=f27e104]: What our customers say
+          - generic [ref=f27e105]:
+            - paragraph [ref=f27e106]: "\"Storey quickly accommodated us in a space that is bright, airy, and inspiring. With excellent transport connections, we've settled into our new home, which offers first-class amenities, flexible meeting rooms, and fantastic breakout areas.\""
+            - paragraph [ref=f27e107]: Gareth Sinnamon, Partner
+          - paragraph [ref=f27e108]: Storey Team
+          - generic [ref=f27e109]:
+            - link "0800 0485 750" [ref=f27e110] [cursor=pointer]:
+              - /url: tel:08000485750
+            - link "workspace@britishland.com" [ref=f27e111] [cursor=pointer]:
+              - /url: mailto:workspace@britishland.com
+            - link "Contact Us" [ref=f27e112] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=f27e113]:
+        - generic [ref=f27e114]:
+          - generic [ref=f27e116]: Brought to you by
+          - generic [ref=f27e117]:
+            - img "British Land" [ref=f27e118]
+            - img "Mallard & Claret" [ref=f27e119]
+        - generic [ref=f27e120]:
+          - paragraph [ref=f27e121]: "The British Land Company PLC. Registered in England. Company No: 621920. Registered Office: York House, 45 Seymour Street, London, W1H 7LX"
+          - paragraph [ref=f27e122]: Made by M&C
+  - button "Open Next.js Dev Tools" [ref=f27e128] [cursor=pointer]:
+    - img [ref=f27e129]
+  - alert [ref=f27e132]

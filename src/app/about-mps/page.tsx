@@ -1,0 +1,40 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import AboutHero from "@/components/about/AboutHero";
+import AboutWhoWeAre from "@/components/about/AboutWhoWeAre";
+import AboutWhatWeOffer from "@/components/about/AboutWhatWeOffer";
+import AboutLocations from "@/components/about/AboutLocations";
+import AboutGallery from "@/components/about/AboutGallery";
+import AboutLandmarkBuildings from "@/components/about/AboutLandmarkBuildings";
+import AboutMpsSpecial from "@/components/about/AboutMpsSpecial";
+import AboutExpertManagement from "@/components/about/AboutExpertManagement";
+import AboutSustainability from "@/components/about/AboutSustainability";
+import AboutTestimonials from "@/components/about/AboutTestimonials";
+import AboutCTA from "@/components/about/AboutCTA";
+
+export const metadata = {
+  title: "About MPS | Marrakech Property Management",
+  description: "Specialized property management for villas, riads, and apartments in Marrakech. We handle Airbnb, Booking.com, cleaning, maintenance, and guest support.",
+};
+
+export default function AboutMpsPage() {
+  return (
+    <>
+      <Header />
+      <main>
+        <AboutHero />
+        <AboutWhoWeAre />
+        <AboutWhatWeOffer />
+        <AboutLocations />
+        <AboutGallery />
+        <AboutLandmarkBuildings />
+        <AboutMpsSpecial />
+        <AboutExpertManagement />
+        <AboutSustainability />
+        <AboutTestimonials />
+        <AboutCTA />
+      </main>
+      <Footer />
+    </>
+  );
+}
