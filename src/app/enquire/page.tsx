@@ -5,6 +5,7 @@ import ContactHero from "@/components/contact/ContactHero";
 import ContactInfoCard from "@/components/contact/ContactInfoCard";
 import ContactSearchCard from "@/components/contact/ContactSearchCard";
 import ContactForm from "@/components/contact/ContactForm";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Enquire | Marrakech Property Service",
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
 export default function EnquirePage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <BreadcrumbSchema path="/enquire" />
       <Header />
 
       <main className="flex-1">

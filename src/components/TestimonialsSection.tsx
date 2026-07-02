@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@/components/icons";
+import { JsonLdScript } from "@/components/JsonLd";
 
 const testimonials = [
   {
@@ -61,6 +62,29 @@ export default function TestimonialsSection() {
 
   return (
     <section className="bg-[#FBEFDD] text-[#4F0003]">
+      {testimonials.map((testimonial, index) => (
+        <JsonLdScript
+          key={`review-${index}`}
+          schema={{
+            "@context": "https://schema.org",
+            "@type": "Review",
+            author: {
+              "@type": "Person",
+              name: testimonial.author,
+            },
+            reviewRating: {
+              "@type": "Rating",
+              ratingValue: "5",
+              bestRating: "5",
+            },
+            reviewBody: testimonial.quote,
+            itemReviewed: {
+              "@type": "LocalBusiness",
+              name: "Marrakech Property Service",
+            },
+          }}
+        />
+      ))}
       <div className="py-[60px] md:py-[120px] px-[20px] sm:px-[40px] max-w-[1356px] mx-auto">
         <h2 className="text-[40px] md:text-[60px] font-medium leading-[1] tracking-tight mb-12">
           What property owners say

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions | Marrakech Property Service",
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 export default function TermsConditionsPage() {
   return (
     <div className="min-h-screen">
+      <BreadcrumbSchema path="/terms-conditions" />
       <Header />
       <main>
         <section className="bg-[#274038] pt-[120px] md:pt-[140px] pb-[40px] md:pb-[60px] px-[24px] md:px-[40px] lg:px-[60px]">

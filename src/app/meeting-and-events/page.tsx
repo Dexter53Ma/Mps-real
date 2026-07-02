@@ -6,6 +6,7 @@ import FlexibleSpaces from "@/components/meetings/FlexibleSpaces";
 import EverythingYouNeed from "@/components/meetings/EverythingYouNeed";
 import AvailableSpaces from "@/components/meetings/AvailableSpaces";
 import BookingEnquiry from "@/components/meetings/BookingEnquiry";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Our Services | Marrakech Property Service",
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
 export default function MeetingAndEventsPage() {
   return (
     <div className="min-h-screen">
+      <BreadcrumbSchema path="/meeting-and-events" />
       <Header />
       <main>
         <MeetingHero />

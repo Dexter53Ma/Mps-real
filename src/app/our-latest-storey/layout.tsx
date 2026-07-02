@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Our Latest MPS | Marrakech Property Service",
@@ -19,5 +20,10 @@ export default function OurLatestStoreyLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <BreadcrumbSchema path="/our-latest-storey" />
+      {children}
+    </>
+  );
 }

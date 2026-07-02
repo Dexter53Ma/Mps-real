@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import IntroSection from "@/components/IntroSection";
 import LocationSection from "@/components/LocationSection";
 import LocationsSpacesSection from "@/components/LocationsSpacesSection";
@@ -47,6 +48,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="flex flex-col flex-1">
+      <BreadcrumbSchema path="" />
       <Header />
       <main className="flex flex-col w-full">
         <HeroSection />

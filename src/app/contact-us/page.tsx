@@ -5,6 +5,8 @@ import ContactHero from "@/components/contact/ContactHero";
 import ContactInfoCard from "@/components/contact/ContactInfoCard";
 import ContactSearchCard from "@/components/contact/ContactSearchCard";
 import ContactForm from "@/components/contact/ContactForm";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import { JsonLdScript } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Contact Us | Marrakech Property Service",
@@ -23,6 +25,19 @@ export const metadata: Metadata = {
 export default function ContactUsPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <BreadcrumbSchema path="/contact-us" />
+      <JsonLdScript schema={{
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        name: "Contact Us | Marrakech Property Service",
+        description: "Get in touch with Marrakech Property Service for property management inquiries, consultations, and support.",
+        url: "https://www.marrakechpropertyservice.com/contact-us/",
+        mainEntity: {
+          "@type": "LocalBusiness",
+          name: "Marrakech Property Service",
+          url: "https://www.marrakechpropertyservice.com",
+        },
+      }} />
       <Header />
 
       <main className="flex-1">

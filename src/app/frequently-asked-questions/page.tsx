@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import { JsonLdScript } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Frequently Asked Questions | Marrakech Property Service",
@@ -19,6 +21,77 @@ export const metadata: Metadata = {
 export default function FaqPage() {
   return (
     <div className="min-h-screen">
+      <BreadcrumbSchema path="/frequently-asked-questions" />
+      <JsonLdScript schema={{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "What does your price include?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "At MPS we have one single, all-inclusive rate which includes: property management; utilities; maintenance; services; and facilities. In addition access to our concierge services is available to all MPS clients.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What types of properties do you offer?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "MPS provides luxury properties including villas, riads, and apartments across Marrakech. We cater to individuals, families, and corporate clients looking for the perfect Marrakech experience.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What are the minimum rental periods?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "The minimum rental period at MPS is typically 3 nights. On average our clients tend to stay between 1 – 4 weeks. We also offer long-term rental options for those looking to make Marrakech their home.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "How much does an MPS property cost?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "MPS properties are priced according to size, location, and season. We offer competitive rates for luxury properties in Marrakech. Please speak to one of the team to discuss your requirements and get a personalized quote.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What concierge services are included?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "MPS provides a range of concierge services including airport transfers, restaurant reservations, excursion bookings, and personal shopping assistance. Our team is dedicated to making your Marrakech experience unforgettable.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What is MPS Club?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "MPS Club is our exclusive membership program offering priority access to new properties, special rates, and premium concierge services across Marrakech. Members enjoy benefits like early access to new listings and exclusive events.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What are your support hours?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "All MPS locations have 24/7 concierge support. Any specific arrangements will be communicated to you prior to arrival. Our team is always available to help with any questions or concerns.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Can I customise my property?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Yes. The MPS team will work with you to personalise your property to meet your needs. This includes: interior design; furniture selection; plant arrangements; and even your preferred amenities. We want your property to feel like home.",
+            },
+          },
+        ],
+      }} />
       <Header />
       <main>
         {/* Hero Section */}

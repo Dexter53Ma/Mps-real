@@ -1,3 +1,12 @@
+export function JsonLdScript({ schema }: { schema: Record<string, unknown> }) {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export default function JsonLd() {
   const localBusiness = {
     "@context": "https://schema.org",
@@ -13,7 +22,10 @@ export default function JsonLd() {
     logo: "https://www.marrakechpropertyservice.com/images/logo.png",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "Route de Ouarzazate",
       addressLocality: "Marrakech",
+      addressRegion: "Marrakech-Safi",
+      postalCode: "40000",
       addressCountry: "MA",
     },
     geo: {
@@ -51,6 +63,8 @@ export default function JsonLd() {
       "@type": "AggregateRating",
       ratingValue: "4.8",
       reviewCount: "50",
+      bestRating: "5",
+      worstRating: "1",
     },
   };
 
@@ -60,6 +74,7 @@ export default function JsonLd() {
     name: "Marrakech Property Service",
     url: "https://www.marrakechpropertyservice.com",
     logo: "https://www.marrakechpropertyservice.com/images/logo.png",
+    description: "Marrakech's leading luxury property management company specializing in villas, riads, and apartments.",
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+212621189496",
@@ -78,6 +93,10 @@ export default function JsonLd() {
     "@type": "WebSite",
     name: "Marrakech Property Service",
     url: "https://www.marrakechpropertyservice.com",
+    publisher: {
+      "@type": "Organization",
+      name: "Marrakech Property Service",
+    },
     potentialAction: {
       "@type": "SearchAction",
       target: {
@@ -88,20 +107,61 @@ export default function JsonLd() {
     },
   };
 
+  const servicePropertyManagement = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Property Management",
+    description: "Full-service property management for villas, riads, and apartments in Marrakech. Includes Airbnb & Booking.com optimization, professional photography, cleaning, maintenance, and 24/7 guest support.",
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Marrakech Property Service",
+      url: "https://www.marrakechpropertyservice.com",
+    },
+    areaServed: {
+      "@type": "City",
+      name: "Marrakech",
+    },
+    serviceType: "Property Management",
+    category: "Real Estate Services",
+    offers: {
+      "@type": "Offer",
+      price: "Contact for pricing",
+      priceCurrency: "MAD",
+      availability: "https://schema.org/InStock",
+    },
+  };
+
+  const serviceAirbnbManagement = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Airbnb Management",
+    description: "Professional Airbnb management services including listing optimization, guest communication, cleaning, and maintenance in Marrakech.",
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Marrakech Property Service",
+      url: "https://www.marrakechpropertyservice.com",
+    },
+    areaServed: {
+      "@type": "City",
+      name: "Marrakech",
+    },
+    serviceType: "Airbnb Management",
+    category: "Vacation Rental Management",
+    offers: {
+      "@type": "Offer",
+      price: "Contact for pricing",
+      priceCurrency: "MAD",
+      availability: "https://schema.org/InStock",
+    },
+  };
+
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }}
-      />
+      <JsonLdScript schema={localBusiness} />
+      <JsonLdScript schema={organization} />
+      <JsonLdScript schema={website} />
+      <JsonLdScript schema={servicePropertyManagement} />
+      <JsonLdScript schema={serviceAirbnbManagement} />
     </>
   );
 }

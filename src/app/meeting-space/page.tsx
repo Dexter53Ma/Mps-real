@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Meeting Spaces | Marrakech Property Service",
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
 export default function MeetingSpacePage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <BreadcrumbSchema path="/meeting-space" />
       <Header />
 
       <main className="flex-1">
