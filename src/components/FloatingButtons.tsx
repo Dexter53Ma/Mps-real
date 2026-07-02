@@ -42,7 +42,7 @@ export function WhatsAppButton() {
               Hello! How can we help you with your Marrakech property?
             </p>
             <a
-              href="https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20your%20properties"
+              href="https://wa.me/212621189496?text=Hello%2C%20I%27m%20interested%20in%20your%20properties"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full bg-[#25D366] text-white text-center py-3 rounded-xl font-semibold hover:bg-[#20ba5a] transition-colors"

@@ -100,10 +100,15 @@ export default function ManagePropertyModal({ isOpen, onClose }: Props) {
     const files = e.target.files;
     if (!files) return;
     const remaining = 3 - formData.photos.length;
-    const newPhotos = Array.from(files).slice(0, remaining).map((file) => ({
-      file,
-      preview: URL.createObjectURL(file),
-    }));
+    const validTypes = ["image/jpeg", "image/png", "image/webp", "image/gif"];
+    const maxSize = 5 * 1024 * 1024; // 5MB
+    const newPhotos = Array.from(files)
+      .filter((file) => validTypes.includes(file.type) && file.size <= maxSize)
+      .slice(0, remaining)
+      .map((file) => ({
+        file,
+        preview: URL.createObjectURL(file),
+      }));
     setFormData((prev) => ({ ...prev, photos: [...prev.photos, ...newPhotos] }));
     if (fileInputRef.current) fileInputRef.current.value = "";
   }, [formData.photos.length]);
