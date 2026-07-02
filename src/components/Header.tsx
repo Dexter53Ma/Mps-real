@@ -164,18 +164,18 @@ const meetingsMega: MegaMenuData = {
     {
       heading: "Management services",
       links: [
-        { label: "Airbnb Management", href: "/meeting-and-events/" },
-        { label: "Cleaning & Turnover", href: "/meeting-and-events/" },
-        { label: "Property Maintenance", href: "/meeting-and-events/" },
-        { label: "Professional Photography", href: "/meeting-and-events/" },
+        { label: "Property Management", href: "/services/property-management/" },
+        { label: "Airbnb Management", href: "/services/airbnb-management/" },
+        { label: "Dynamic Pricing", href: "/services/dynamic-pricing/" },
+        { label: "Professional Photography", href: "/services/professional-photography/" },
       ],
     },
     {
       heading: "Guest services",
       links: [
-        { label: "24/7 Guest Support", href: "/meeting-and-events/" },
-        { label: "Concierge Services", href: "/meeting-and-events/" },
-        { label: "Check-in / Check-out", href: "/meeting-and-events/" },
+        { label: "Cleaning & Maintenance", href: "/services/cleaning-maintenance/" },
+        { label: "Concierge Services", href: "/services/concierge/" },
+        { label: "24/7 Guest Support", href: "/services/concierge/" },
       ],
     },
   ],
@@ -247,11 +247,12 @@ const mobileAccordions: MobileAccordion[] = [
     label: "Services",
     links: [
       { label: "View all services", href: "/meeting-and-events/" },
-      { label: "Airbnb Management", href: "/meeting-and-events/" },
-      { label: "Cleaning & Turnover", href: "/meeting-and-events/" },
-      { label: "Property Maintenance", href: "/meeting-and-events/" },
-      { label: "Professional Photography", href: "/meeting-and-events/" },
-      { label: "24/7 Guest Support", href: "/meeting-and-events/" },
+      { label: "Property Management", href: "/services/property-management/" },
+      { label: "Airbnb Management", href: "/services/airbnb-management/" },
+      { label: "Dynamic Pricing", href: "/services/dynamic-pricing/" },
+      { label: "Professional Photography", href: "/services/professional-photography/" },
+      { label: "Cleaning & Maintenance", href: "/services/cleaning-maintenance/" },
+      { label: "Concierge Services", href: "/services/concierge/" },
     ],
   },
   {

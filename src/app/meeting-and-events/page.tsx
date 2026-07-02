@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Our Services | Marrakech Property Service",
   description: "Full-service property management for villas, riads and apartments in Marrakech. Airbnb management, cleaning, photography, maintenance and more.",
   openGraph: {
-  title: "Our Services",
+    title: "Our Services",
     description: "Full-service property management for villas, riads and apartments in Marrakech.",
     url: "https://www.marrakechpropertyservice.com/meeting-and-events/",
   },
@@ -62,6 +62,34 @@ export default function MeetingAndEventsPage() {
                     {audience.description}
                   </p>
                 </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Service Pages Grid */}
+        <section className="bg-[#FBEFDD] py-[80px] md:py-[120px] px-[24px] md:px-[40px] lg:px-[60px]">
+          <div className="max-w-[1356px] mx-auto">
+            <h2 className="text-[36px] md:text-[48px] font-medium leading-[1.1] tracking-tight text-[#1A171A] mb-[40px]">
+              Our Services
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[24px]">
+              {[
+                { title: "Property Management", desc: "Full-service management covering listings, guests, cleaning, maintenance, and reporting.", href: "/services/property-management/" },
+                { title: "Airbnb Management", desc: "Specialized Airbnb optimization, Superhost strategies, and multi-platform listings.", href: "/services/airbnb-management/" },
+                { title: "Professional Photography", desc: "Interior, exterior, aerial drone, and lifestyle photography that drives bookings.", href: "/services/professional-photography/" },
+                { title: "Cleaning & Maintenance", desc: "Hospitality-grade cleaning, pool care, garden upkeep, and emergency repairs.", href: "/services/cleaning-maintenance/" },
+                { title: "Concierge Services", desc: "24/7 multilingual support, airport transfers, restaurants, and excursions.", href: "/services/concierge/" },
+                { title: "Dynamic Pricing", desc: "Real-time rate optimization based on demand, seasonality, and local events.", href: "/services/dynamic-pricing/" },
+              ].map((service) => (
+                <a
+                  key={service.title}
+                  href={service.href}
+                  className="block bg-white rounded-[9px] p-[32px] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 no-underline"
+                >
+                  <h3 className="text-[20px] font-medium text-[#1A171A] mb-[8px]">{service.title}</h3>
+                  <p className="text-[14px] text-[#1A171A]/70 leading-[1.6]">{service.desc}</p>
+                </a>
               ))}
             </div>
           </div>
