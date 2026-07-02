@@ -171,8 +171,8 @@ export default function Footer() {
               </p>
             </div>
             <div className="flex gap-[20px] md:gap-[28px] items-center opacity-60">
-              <img src="/images/misc/airbnb.svg" alt="Airbnb" className="h-[26px] md:h-[30px] w-auto" />
-              <img src="/images/misc/booking.svg" alt="Booking.com" className="h-[20px] md:h-[24px] w-auto" />
+              <img src="/images/misc/airbnb.svg" alt="Airbnb" width={120} height={30} loading="lazy" className="h-[26px] md:h-[30px] w-auto" />
+              <img src="/images/misc/booking.svg" alt="Booking.com" width={100} height={24} loading="lazy" className="h-[20px] md:h-[24px] w-auto" />
             </div>
           </div>
           <div className="mt-[16px] flex flex-col md:flex-row justify-between items-start md:items-center gap-[12px]">

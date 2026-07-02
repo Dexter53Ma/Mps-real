@@ -88,6 +88,9 @@ export default function PillarsSection() {
               <img
                 src={card.image}
                 alt={card.title}
+                width={500}
+                height={500}
+                loading="lazy"
                 className={`absolute inset-0 w-full h-full object-cover z-0 transition-transform duration-700 ${
                   hoveredIndex === i ? "scale-105" : "scale-100"
                 }`}

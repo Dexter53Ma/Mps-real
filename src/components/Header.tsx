@@ -8,31 +8,33 @@ import ManagePropertyModal from "./ManagePropertyModal";
 
 function HamburgerIcon({ className }: { className?: string }) {
   return (
-    <svg
-      className={className}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-    >
-      <path d="M4 6h16M4 12h16M4 18h16" />
-    </svg>
+              <svg
+                className={className}
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                aria-hidden="true"
+              >
+                <path d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
   );
 }
 
 function CloseIcon({ className }: { className?: string }) {
   return (
-    <svg
-      className={className}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-    >
-      <path d="M6 6l12 12M18 6L6 18" />
-    </svg>
+              <svg
+                className={className}
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                aria-hidden="true"
+              >
+                <path d="M6 6l12 12M18 6L6 18" />
+              </svg>
   );
 }
 
@@ -444,10 +446,13 @@ export default function Header() {
                       href={data.featured.href}
                       className="group block relative rounded-[12px] overflow-hidden h-[280px] no-underline"
                     >
-                      <img
-                        src={data.featured.image}
-                        alt={data.featured.title}
-                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            <img
+              src={data.featured.image}
+              alt={data.featured.title}
+              width={320}
+              height={280}
+              loading="lazy"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                       <div className="absolute bottom-[20px] left-[20px] right-[20px]">

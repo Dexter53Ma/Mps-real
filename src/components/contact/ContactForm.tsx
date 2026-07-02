@@ -59,6 +59,7 @@ export default function ContactForm() {
             type="text"
             name="firstName"
             placeholder="First name*"
+            aria-label="First name"
             value={formData.firstName}
             onChange={handleChange}
             required
@@ -68,6 +69,7 @@ export default function ContactForm() {
             type="text"
             name="lastName"
             placeholder="Last name*"
+            aria-label="Last name"
             value={formData.lastName}
             onChange={handleChange}
             required
@@ -80,6 +82,7 @@ export default function ContactForm() {
             type="email"
             name="email"
             placeholder="Contact email*"
+            aria-label="Contact email"
             value={formData.email}
             onChange={handleChange}
             required
@@ -89,6 +92,7 @@ export default function ContactForm() {
             type="tel"
             name="phone"
             placeholder="Contact number*"
+            aria-label="Contact number"
             value={formData.phone}
             onChange={handleChange}
             required
@@ -100,6 +104,7 @@ export default function ContactForm() {
           type="text"
           name="company"
           placeholder="Company*"
+          aria-label="Company"
           value={formData.company}
           onChange={handleChange}
           required
@@ -108,6 +113,7 @@ export default function ContactForm() {
 
         <select
           name="hearAbout"
+          aria-label="How did you hear about us"
           value={formData.hearAbout}
           onChange={handleChange}
           className="w-full px-[14px] md:px-[16px] py-[10px] md:py-[12px] mb-[16px] md:mb-[24px] border border-[#1A171A]/20 rounded-[6px] text-[13px] md:text-[14px] font-[family-name:var(--font-gt-walsheim-prolight)] text-[#1A171A] appearance-none cursor-pointer bg-white"
@@ -153,6 +159,7 @@ export default function ContactForm() {
         <textarea
           name="additionalInfo"
           placeholder="Please mention any specific floor numbers or additional information here..."
+          aria-label="Additional information"
           value={formData.additionalInfo}
           onChange={handleChange}
           rows={4}

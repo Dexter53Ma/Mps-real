@@ -211,6 +211,9 @@ export default function FaqPage() {
                 <img
                   src="/images/intro/20250106_PaddingtonCentral_StoreyClub_4KingdomStreet_008-1-scaled-1.jpg"
                   alt="Luxury property in Marrakech"
+                  width={600}
+                  height={450}
+                  loading="lazy"
                   className="w-full h-auto rounded-[12px] object-cover aspect-[4/3] img-zoom"
                 />
               </div>

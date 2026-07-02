@@ -67,6 +67,9 @@ export default function LocationSection() {
           <img
             src="/images/locations/Map5-2.png"
             alt="Map of managed properties in Marrakech"
+            width={1200}
+            height={800}
+            loading="lazy"
             className="w-full h-auto"
           />
           {markerPositions.map((pos, i) => (
@@ -101,6 +104,9 @@ export default function LocationSection() {
           <img
             src="/images/locations/20230905-Regents-Place_1-Triton-Square5-copy-scaled-1.jpg"
             alt="Managed property"
+            width={160}
+            height={160}
+            loading="lazy"
             className="w-[120px] h-[120px] md:w-[160px] md:h-[160px] object-cover rounded-lg"
           />
           <div className="text-center md:text-left">

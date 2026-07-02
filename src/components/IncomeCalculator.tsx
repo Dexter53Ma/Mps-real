@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const propertyTypes = ["Villa", "Riad", "Apartment"];
@@ -34,6 +34,9 @@ export default function IncomeCalculator() {
   const [location, setLocation] = useState("Palmeraie");
   const [bedroom, setBedroom] = useState("3");
   const [showResult, setShowResult] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => { setMounted(true); }, []);
 
   const rates = rateData[propertyType]?.[location]?.[bedroom] || { low: 1000, high: 2000 };
   const monthlyLow = rates.low * 30;
@@ -122,7 +125,7 @@ export default function IncomeCalculator() {
           </div>
 
           {/* Results */}
-          <div className={`transition-all duration-500 ${showResult ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
+          <div className={`transition-all duration-500 ${mounted && showResult ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
             <div className="border-t border-[#1A171A]/10 pt-[32px]">
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-[24px] text-center">
                 <div>

@@ -51,7 +51,7 @@ export default function Home() {
     <div className="flex flex-col flex-1">
       <BreadcrumbSchema path="" />
       <Header />
-      <main className="flex flex-col w-full">
+      <main id="main-content" className="flex flex-col w-full">
         <HeroSection />
         <IncomeCalculator />
         <IntroSection />

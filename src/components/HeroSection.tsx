@@ -29,11 +29,13 @@ export default function HeroSection() {
     <section className="bg-[#1A171A] min-h-[600px] sm:min-h-[700px] lg:min-h-[900px] w-full overflow-hidden relative z-[6]">
       <div className="absolute inset-0 z-[2] overflow-hidden">
         {images.map((src, index) => (
-          <img
-            key={src}
-            src={src}
-            alt="Luxury villa in Marrakech"
-            className={`absolute inset-0 w-full h-[110%] object-cover transition-all duration-[2000ms] ease-out ${
+            <img
+              key={src}
+              src={src}
+              alt="Luxury villa in Marrakech"
+              width={1920}
+              height={1080}
+              className={`absolute inset-0 w-full h-[110%] object-cover transition-all duration-[2000ms] ease-out ${
               currentImage === index ? "opacity-80 ken-burns" : "opacity-0"
             }`}
             style={{
@@ -89,6 +91,9 @@ export default function HeroSection() {
             <img
               src="/images/gallery/63053ac8-bf63-41f0-9d3c-b7a7731511bc.png"
               alt="Managed property"
+              width={120}
+              height={70}
+              loading="lazy"
               className="w-[80px] sm:w-[100px] md:w-[120px] h-[60px] sm:h-[70px] object-cover"
             />
           </div>

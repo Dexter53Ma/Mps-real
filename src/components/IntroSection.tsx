@@ -50,6 +50,9 @@ export default function IntroSection() {
           <img
             src="/images/intro/20250106_PaddingtonCentral_StoreyClub_4KingdomStreet_008-1-scaled-1.jpg"
             alt="Luxury managed villa in Marrakech"
+            width={600}
+            height={750}
+            loading="lazy"
             className="w-full h-auto rounded-[9px] object-cover aspect-[4/5] img-zoom"
           />
         </div>

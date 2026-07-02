@@ -35,7 +35,11 @@ export default function ContactCTA() {
       <img
         src="/images/logo.png"
         alt=""
+        width={400}
+        height={400}
+        loading="lazy"
         className="absolute bottom-0 right-0 w-[300px] md:w-[400px] h-auto opacity-10 pointer-events-none"
+        aria-hidden="true"
       />
       <div 
         ref={ref}

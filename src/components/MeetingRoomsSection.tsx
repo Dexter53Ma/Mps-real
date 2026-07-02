@@ -27,6 +27,9 @@ export default function MeetingRoomsSection() {
           <img
             src="/images/meeting/20250106_PaddingtonCentral_StoreyClub_4KingdomStreet_019-copy-scaled-1.jpg"
             alt="Concierge service"
+            width={600}
+            height={450}
+            loading="lazy"
             className="w-full h-auto rounded-[9px] object-cover aspect-[4/3]"
           />
         </div>
