@@ -1,9 +1,13 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Terms of Use | Marrakech Property Service",
   description: "Terms and conditions for using the Marrakech Property Service website.",
+  alternates: {
+    canonical: "https://www.marrakechpropertyservice.com/terms-of-use/",
+  },
 };
 
 export default function TermsOfUsePage() {

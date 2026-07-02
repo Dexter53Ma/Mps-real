@@ -1,10 +1,19 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "MPS Club | Marrakech Property Service",
   description:
     "Access premium concierge services and exclusive experiences with MPS Club membership in Marrakech.",
+  openGraph: {
+    title: "MPS Club | Marrakech Property Service",
+    description: "Access premium concierge services and exclusive experiences with MPS Club membership.",
+    url: "https://www.marrakechpropertyservice.com/storey-club/",
+  },
+  alternates: {
+    canonical: "https://www.marrakechpropertyservice.com/storey-club/",
+  },
 };
 
 export default function StoreyClubPage() {

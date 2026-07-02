@@ -39,7 +39,7 @@ export default function ContactCTA() {
       />
       <div 
         ref={ref}
-        className={`relative mx-auto max-w-[1356px] px-[40px] py-[80px] md:py-[100px] reveal ${isRevealed ? 'revealed' : ''}`}
+        className={`relative mx-auto max-w-[1356px] px-[20px] sm:px-[40px] py-[60px] md:py-[100px] reveal ${isRevealed ? 'revealed' : ''}`}
       >
         <h2 className="text-[36px] md:text-[48px] font-medium leading-[1] tracking-tight mb-[20px]">
           Ready to maximize your property&apos;s potential?

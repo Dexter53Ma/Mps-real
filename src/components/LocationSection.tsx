@@ -31,7 +31,7 @@ export default function LocationSection() {
 
   return (
     <section ref={ref} className={`reveal ${isRevealed ? "revealed" : ""} bg-[#274038] text-[#F1F4F1]`}>
-      <div className="py-[80px] md:py-[120px] px-[40px] max-w-[1356px] mx-auto">
+      <div className="py-[60px] md:py-[120px] px-[20px] sm:px-[40px] max-w-[1356px] mx-auto">
         <p className="text-[12px] md:text-[14px] uppercase tracking-[0.2em] opacity-70 mb-4">
           Where we manage
         </p>
@@ -78,15 +78,15 @@ export default function LocationSection() {
                 <MapMarkerIcon className="w-6 h-8" />
               </button>
               {activeLocation === i && (
-                <div className="absolute bg-white rounded-xl shadow-2xl w-[260px] z-20 -top-[200px] -left-[120px] overflow-hidden">
+                <div className="absolute bg-white rounded-xl shadow-2xl w-[200px] sm:w-[260px] z-20 -top-[180px] sm:-top-[200px] left-1/2 -translate-x-1/2 overflow-hidden">
                   <img
                     src={popupImages[i]}
                     alt={locations[i].name}
-                    className="w-full h-[160px] object-cover"
+                    className="w-full h-[120px] sm:h-[160px] object-cover"
                   />
-                  <div className="p-4">
-                    <p className="font-medium text-[#1A171A] text-[16px]">{locations[i].name}</p>
-                    <p className="text-[13px] text-gray-500 mt-1">{locations[i].area}</p>
+                  <div className="p-3 sm:p-4">
+                    <p className="font-medium text-[#1A171A] text-[14px] sm:text-[16px]">{locations[i].name}</p>
+                    <p className="text-[11px] sm:text-[13px] text-gray-500 mt-1">{locations[i].area}</p>
                   </div>
                 </div>
               )}
@@ -95,7 +95,7 @@ export default function LocationSection() {
         </div>
 
         <a
-          href="/manage-property/"
+          href="/enquire/"
           className="mt-10 bg-[#1A171A] rounded-xl p-6 md:p-8 flex flex-col md:flex-row items-center gap-6 no-underline hover:bg-[#2a2529] transition-colors group"
         >
           <img

@@ -10,7 +10,7 @@ export default function IntroSection() {
 
   return (
     <section className="bg-[#FBEFDD] text-[#4F0003] rounded-b-[10px] overflow-hidden">
-      <div className="flex flex-col md:flex-row items-center gap-[60px] md:gap-[120px] mx-auto max-w-[1356px] py-[80px] md:py-[120px] px-[40px]">
+      <div className="flex flex-col md:flex-row items-center gap-[40px] sm:gap-[60px] md:gap-[120px] mx-auto max-w-[1356px] py-[60px] md:py-[120px] px-[20px] sm:px-[40px]">
         <div 
           ref={textRef}
           className={`flex flex-col gap-[30px] max-w-[580px] reveal ${textRevealed ? 'revealed' : ''}`}
@@ -35,7 +35,7 @@ export default function IntroSection() {
             and property maintenance. One team, one invoice, zero stress.
           </p>
           <Link
-            href="/manage-property/"
+            href="/enquire/"
             className="btn-hover flex items-center gap-[10px] no-underline transition-all duration-[350ms] hover:opacity-70 w-fit mt-4"
           >
             <span className="text-[16px]">Manage my property</span>

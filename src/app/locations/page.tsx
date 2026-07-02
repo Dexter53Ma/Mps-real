@@ -1,10 +1,19 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Locations | Marrakech Property Service",
   description:
     "Explore our premium property locations across Marrakech's most exclusive neighborhoods.",
+  openGraph: {
+    title: "Locations | Marrakech Property Service",
+    description: "Explore our premium property locations across Marrakech's most exclusive neighborhoods.",
+    url: "https://www.marrakechpropertyservice.com/locations/",
+  },
+  alternates: {
+    canonical: "https://www.marrakechpropertyservice.com/locations/",
+  },
 };
 
 export default function LocationsPage() {

@@ -47,7 +47,7 @@ export default function PillarsSection() {
 
   return (
     <section className="bg-[#4F0003] text-[#FBEFDD]">
-      <div className="px-[40px] py-[80px] md:py-[120px] flex flex-col gap-[60px] max-w-[1356px] mx-auto">
+      <div className="px-[20px] sm:px-[40px] py-[60px] md:py-[120px] flex flex-col gap-[40px] sm:gap-[60px] max-w-[1356px] mx-auto">
         <div 
           ref={titleRef}
           className={`flex flex-col reveal ${titleRevealed ? 'revealed' : ''}`}

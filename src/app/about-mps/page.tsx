@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AboutHero from "@/components/about/AboutHero";
@@ -12,9 +13,17 @@ import AboutSustainability from "@/components/about/AboutSustainability";
 import AboutTestimonials from "@/components/about/AboutTestimonials";
 import AboutCTA from "@/components/about/AboutCTA";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "About MPS | Marrakech Property Management",
   description: "Specialized property management for villas, riads, and apartments in Marrakech. We handle Airbnb, Booking.com, cleaning, maintenance, and guest support.",
+  openGraph: {
+    title: "About MPS | Marrakech Property Management",
+    description: "Specialized property management for villas, riads, and apartments in Marrakech.",
+    url: "https://www.marrakechpropertyservice.com/about-mps/",
+  },
+  alternates: {
+    canonical: "https://www.marrakechpropertyservice.com/about-mps/",
+  },
 };
 
 export default function AboutMpsPage() {

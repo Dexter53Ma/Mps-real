@@ -1,10 +1,19 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Frequently Asked Questions | Marrakech Property Service",
   description: "Everything you need to know about our luxury properties and concierge services in Marrakech.",
+  openGraph: {
+    title: "Frequently Asked Questions | Marrakech Property Service",
+    description: "Everything you need to know about our luxury properties and concierge services in Marrakech.",
+    url: "https://www.marrakechpropertyservice.com/frequently-asked-questions/",
+  },
+  alternates: {
+    canonical: "https://www.marrakechpropertyservice.com/frequently-asked-questions/",
+  },
 };
 
 export default function FaqPage() {

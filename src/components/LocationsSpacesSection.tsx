@@ -28,7 +28,7 @@ export default function LocationsSpacesSection() {
 
   return (
     <section ref={ref} className={`reveal ${isRevealed ? "revealed" : ""} bg-white`}>
-      <div className="py-[80px] md:py-[120px] px-[40px] max-w-[1356px] mx-auto">
+      <div className="py-[60px] md:py-[120px] px-[20px] sm:px-[40px] max-w-[1356px] mx-auto">
         <h2 className="text-[36px] md:text-[56px] font-medium leading-[1.1] tracking-tight mb-4 text-[#1A171A]">
           Choose from MPS properties<br />across Marrakech
         </h2>

@@ -1,9 +1,13 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Privacy Notice | Marrakech Property Service",
   description: "How Marrakech Property Service collects, uses, and protects your personal information.",
+  alternates: {
+    canonical: "https://www.marrakechpropertyservice.com/privacy-notice/",
+  },
 };
 
 export default function PrivacyNoticePage() {

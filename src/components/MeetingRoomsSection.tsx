@@ -7,7 +7,7 @@ export default function MeetingRoomsSection() {
 
   return (
     <section ref={ref} className={`reveal ${isRevealed ? "revealed" : ""} bg-[#274038] text-white`}>
-      <div className="flex flex-col md:flex-row items-center gap-[60px] max-w-[1356px] mx-auto py-[80px] md:py-[120px] px-[40px]">
+      <div className="flex flex-col md:flex-row items-center gap-[40px] sm:gap-[60px] max-w-[1356px] mx-auto py-[60px] md:py-[120px] px-[20px] sm:px-[40px]">
         <div className="flex-1 max-w-[600px]">
           <h2 className="text-[40px] md:text-[60px] font-medium leading-[1] tracking-tight text-white">
             Expert concierge services

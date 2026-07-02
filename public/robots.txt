@@ -1,0 +1,5 @@
+# https://www.marrakechpropertyservice.com
+User-agent: *
+Allow: /
+
+Sitemap: https://www.marrakechpropertyservice.com/sitemap.xml

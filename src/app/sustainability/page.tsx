@@ -1,10 +1,19 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sustainability | Marrakech Property Service",
   description:
     "Our commitment to sustainable luxury property management in Marrakech.",
+  openGraph: {
+    title: "Sustainability | Marrakech Property Service",
+    description: "Our commitment to sustainable luxury property management in Marrakech.",
+    url: "https://www.marrakechpropertyservice.com/sustainability/",
+  },
+  alternates: {
+    canonical: "https://www.marrakechpropertyservice.com/sustainability/",
+  },
 };
 
 export default function SustainabilityPage() {

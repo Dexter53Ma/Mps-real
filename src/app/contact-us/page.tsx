@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ContactHero from "@/components/contact/ContactHero";
@@ -5,10 +6,18 @@ import ContactInfoCard from "@/components/contact/ContactInfoCard";
 import ContactSearchCard from "@/components/contact/ContactSearchCard";
 import ContactForm from "@/components/contact/ContactForm";
 
-export const metadata = {
-  title: "Luxury Property Marrakech | Contact MPS",
+export const metadata: Metadata = {
+  title: "Contact Us | Marrakech Property Service",
   description:
     "Get in touch with Marrakech Property Service to find luxury properties, concierge services, and exclusive experiences in Marrakech.",
+  openGraph: {
+    title: "Contact Us | Marrakech Property Service",
+    description: "Get in touch with MPS for luxury properties and concierge services in Marrakech.",
+    url: "https://www.marrakechpropertyservice.com/contact-us/",
+  },
+  alternates: {
+    canonical: "https://www.marrakechpropertyservice.com/contact-us/",
+  },
 };
 
 export default function ContactUsPage() {

@@ -56,7 +56,7 @@ export default function WhatMakesStoreySpecial() {
             The luxury. The concierge services. The personalisation. And the simple, straightforward management.
           </p>
           <a
-            href="/about-storey/"
+            href="/about-mps/"
             className="btn-hover inline-flex items-center gap-[8px] text-[#FBEFDD] text-[14px] md:text-[16px] font-[family-name:var(--font-gt-walsheim-prolight)] no-underline min-h-[44px] transition-opacity"
           >
             <span className="w-[14px] h-[14px] md:w-[16px] md:h-[16px]">

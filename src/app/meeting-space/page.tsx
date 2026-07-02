@@ -1,10 +1,19 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Meeting Spaces | Marrakech Property Service",
   description:
     "Book beautifully designed meeting spaces across Marrakech's most exclusive locations.",
+  openGraph: {
+    title: "Meeting Spaces | Marrakech Property Service",
+    description: "Book beautifully designed meeting spaces across Marrakech's most exclusive locations.",
+    url: "https://www.marrakechpropertyservice.com/meeting-space/",
+  },
+  alternates: {
+    canonical: "https://www.marrakechpropertyservice.com/meeting-space/",
+  },
 };
 
 export default function MeetingSpacePage() {

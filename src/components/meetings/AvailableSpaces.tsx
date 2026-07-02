@@ -105,7 +105,7 @@ export default function AvailableSpaces() {
             </p>
           </div>
           <a
-            href="/manage-property/"
+            href="/enquire/"
             className="btn-hover inline-flex items-center px-[24px] py-[12px] bg-white text-[#274038] rounded-full text-[15px] font-medium no-underline transition-all duration-300 hover:bg-white/90 min-h-[44px] whitespace-nowrap"
           >
             Get Free Assessment

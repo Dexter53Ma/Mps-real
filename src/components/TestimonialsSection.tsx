@@ -61,7 +61,7 @@ export default function TestimonialsSection() {
 
   return (
     <section className="bg-[#FBEFDD] text-[#4F0003]">
-      <div className="py-[80px] md:py-[120px] px-[40px] max-w-[1356px] mx-auto">
+      <div className="py-[60px] md:py-[120px] px-[20px] sm:px-[40px] max-w-[1356px] mx-auto">
         <h2 className="text-[40px] md:text-[60px] font-medium leading-[1] tracking-tight mb-12">
           What property owners say
         </h2>
@@ -100,14 +100,14 @@ export default function TestimonialsSection() {
 
           <button
             onClick={prevSlide}
-            className="btn-hover absolute left-[-20px] top-1/2 -translate-y-1/2 w-10 h-10 rounded-full border border-[#4F0003] flex items-center justify-center bg-[#FBEFDD] hover:bg-[#4F0003] hover:text-[#FBEFDD] transition-colors z-10 min-w-[44px] min-h-[44px]"
+            className="btn-hover absolute left-[0px] sm:left-[-20px] top-1/2 -translate-y-1/2 w-10 h-10 rounded-full border border-[#4F0003] flex items-center justify-center bg-[#FBEFDD] hover:bg-[#4F0003] hover:text-[#FBEFDD] transition-colors z-10 min-w-[44px] min-h-[44px]"
           >
             <ChevronLeftIcon className="w-3 h-4" />
           </button>
 
           <button
             onClick={nextSlide}
-            className="btn-hover absolute right-[-20px] top-1/2 -translate-y-1/2 w-10 h-10 rounded-full border border-[#4F0003] flex items-center justify-center bg-[#FBEFDD] hover:bg-[#4F0003] hover:text-[#FBEFDD] transition-colors z-10 min-w-[44px] min-h-[44px]"
+            className="btn-hover absolute right-[0px] sm:right-[-20px] top-1/2 -translate-y-1/2 w-10 h-10 rounded-full border border-[#4F0003] flex items-center justify-center bg-[#FBEFDD] hover:bg-[#4F0003] hover:text-[#FBEFDD] transition-colors z-10 min-w-[44px] min-h-[44px]"
           >
             <ChevronRightIcon className="w-3 h-4" />
           </button>

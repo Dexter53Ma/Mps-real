@@ -257,7 +257,7 @@ const mobileAccordions: MobileAccordion[] = [
       { label: "Our Story", href: "/our-latest-storey/" },
       { label: "FAQs", href: "/frequently-asked-questions/" },
       { label: "Sustainability", href: "/sustainability/" },
-      { label: "Why MPS", href: "/about-storey/" },
+      { label: "Why MPS", href: "/about-mps/" },
       { label: "MPS Club", href: "/storey-club/" },
     ],
   },

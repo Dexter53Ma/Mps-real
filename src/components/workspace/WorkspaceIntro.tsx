@@ -28,7 +28,7 @@ export default function WorkspaceIntro() {
             </p>
             <div className="flex flex-wrap gap-[16px]">
               <a
-                href="/manage-property/"
+                href="/enquire/"
                 className="btn-hover inline-flex items-center px-[24px] py-[12px] bg-[#274038] text-white rounded-full text-[15px] font-medium no-underline transition-all duration-300 hover:bg-[#1A171A] min-h-[44px]"
               >
                 List Your Property

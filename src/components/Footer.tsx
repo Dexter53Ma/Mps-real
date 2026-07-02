@@ -46,12 +46,12 @@ export default function Footer() {
               >
                 Contact Us
               </Link>
-              <a
-                href="#"
+              <Link
+                href="/contact-us/"
                 className="nav-link text-[14px] font-[family-name:var(--font-gt-walsheim-prolight)] text-[#F1F4F1] no-underline transition-opacity duration-300 hover:opacity-70 inline-block w-fit"
               >
-                Login
-              </a>
+                Contact Us
+              </Link>
             </div>
             <div className="flex flex-col gap-[10px] mb-[24px]">
               <a
