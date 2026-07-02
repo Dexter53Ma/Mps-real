@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import IncomeCalculator from "@/components/IncomeCalculator";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import IntroSection from "@/components/IntroSection";
 import LocationSection from "@/components/LocationSection";
@@ -52,6 +53,7 @@ export default function Home() {
       <Header />
       <main className="flex flex-col w-full">
         <HeroSection />
+        <IncomeCalculator />
         <IntroSection />
         <LocationSection />
         <LocationsSpacesSection />

@@ -120,10 +120,18 @@ export default function LocationsPage() {
             <h2 className="text-[36px] md:text-[48px] font-medium leading-[1.1] tracking-tight text-[#FBEFDD] mb-[40px]">
               Explore Marrakech
             </h2>
-            <div className="bg-[#274038] rounded-[9px] p-[40px] md:p-[60px] text-center">
-              <p className="text-white/80 text-[16px] md:text-[18px] font-[family-name:var(--font-gt-walsheim-prolight)]">
-                Interactive map coming soon. Contact us for detailed location information.
-              </p>
+            <div className="rounded-[9px] overflow-hidden aspect-[16/9] md:aspect-[2/1]">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108862.0876!2d-8.05!3d31.63!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafef1f1e1e1e1e%3A0x1e1e1e1e1e1e1e1e!2sMarrakech!5e0!3m2!1sen!2sma!4v1700000000000!5m2!1sen!2sma"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Map of Marrakech locations - Palmeraie, Medina, Hivernage, Guéliz"
+                className="w-full h-full"
+              />
             </div>
           </div>
         </section>
