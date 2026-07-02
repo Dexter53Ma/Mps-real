@@ -62,9 +62,9 @@ export default function HeroSection() {
         <div className="flex flex-col md:flex-row items-stretch gap-[10px] px-[10px] pb-[10px] animate-fade-in-up animation-delay-400">
           <div className="flex-1 bg-[#274038]/90 backdrop-blur-sm rounded-[8px] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-[12px] p-[14px_16px] sm:p-[14px_23px]">
             <div className="flex flex-col">
-              <h5 className="text-[14px] sm:text-[16px] font-medium text-white mb-[4px]">
+              <p className="text-[14px] sm:text-[16px] font-medium text-white mb-[4px]">
                 Full-service property management
-              </h5>
+              </p>
               <p className="text-[12px] sm:text-[14px] text-white/70">
                 Airbnb, Booking.com &amp; direct rentals — we handle it all
               </p>

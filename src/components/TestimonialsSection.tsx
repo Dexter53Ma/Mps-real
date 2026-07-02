@@ -125,6 +125,7 @@ export default function TestimonialsSection() {
 
           <button
             onClick={prevSlide}
+            aria-label="Previous testimonial"
             className="btn-hover absolute left-[0px] sm:left-[-20px] top-1/2 -translate-y-1/2 w-10 h-10 rounded-full border border-[#4F0003] flex items-center justify-center bg-[#FBEFDD] hover:bg-[#4F0003] hover:text-[#FBEFDD] transition-colors z-10 min-w-[44px] min-h-[44px]"
           >
             <ChevronLeftIcon className="w-3 h-4" />
@@ -132,6 +133,7 @@ export default function TestimonialsSection() {
 
           <button
             onClick={nextSlide}
+            aria-label="Next testimonial"
             className="btn-hover absolute right-[0px] sm:right-[-20px] top-1/2 -translate-y-1/2 w-10 h-10 rounded-full border border-[#4F0003] flex items-center justify-center bg-[#FBEFDD] hover:bg-[#4F0003] hover:text-[#FBEFDD] transition-colors z-10 min-w-[44px] min-h-[44px]"
           >
             <ChevronRightIcon className="w-3 h-4" />

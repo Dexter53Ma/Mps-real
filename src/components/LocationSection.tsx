@@ -76,7 +76,8 @@ export default function LocationSection() {
             <div key={i} className="absolute" style={{ top: pos.top, left: pos.left }}>
               <button
                 onClick={() => setActiveLocation(activeLocation === i ? null : i)}
-                className="text-[#FB4920] w-6 h-8 cursor-pointer hover:scale-125 transition-transform"
+                aria-label={`View ${locations[i].name} location`}
+                className="text-white w-6 h-8 cursor-pointer hover:scale-125 transition-transform"
               >
                 <MapMarkerIcon className="w-6 h-8" />
               </button>

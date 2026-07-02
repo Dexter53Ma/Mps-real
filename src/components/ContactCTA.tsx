@@ -64,7 +64,7 @@ export default function ContactCTA() {
             href="https://wa.me/212621189496"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-hover inline-flex items-center gap-3 px-6 py-3 bg-[#25D366] rounded-lg text-[15px] no-underline text-white transition-all duration-300 hover:bg-[#20BD5A] min-h-[44px]"
+            className="btn-hover inline-flex items-center gap-3 px-6 py-3 bg-[#25D366] rounded-lg text-[15px] no-underline text-[#1A171A] font-medium transition-all duration-300 hover:bg-[#20BD5A] min-h-[44px]"
           >
             <WhatsAppIcon />
             WhatsApp Us

@@ -331,7 +331,7 @@ export default function Header() {
       >
         <div className="flex justify-between items-center py-[16px] px-[24px] md:px-[40px] lg:px-[60px] max-w-[1440px] mx-auto">
           {/* Logo */}
-          <Link href="/" className="block relative z-10 shrink-0">
+          <Link href="/" aria-label="MPS Homepage" className="block relative z-10 shrink-0">
             <MPSLogo className="text-[#1A171A]" />
           </Link>
 
@@ -501,7 +501,7 @@ export default function Header() {
         }`}
       >
         <div className="flex justify-between items-center py-[20px] px-[24px]">
-          <Link href="/" className="block" onClick={() => setIsMobileMenuOpen(false)}>
+          <Link href="/" aria-label="MPS Homepage" className="block" onClick={() => setIsMobileMenuOpen(false)}>
             <MPSLogo className="text-white" />
           </Link>
           <button
