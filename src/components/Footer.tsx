@@ -32,6 +32,24 @@ export default function Footer() {
               >
                 Our Services
               </Link>
+              <Link
+                href="/locations/"
+                className="nav-link text-[15px] font-[family-name:var(--font-gt-walsheim-prolight)] text-[#F1F4F1] no-underline transition-opacity duration-300 hover:opacity-70 inline-block w-fit"
+              >
+                Locations
+              </Link>
+              <Link
+                href="/meeting-space/"
+                className="nav-link text-[15px] font-[family-name:var(--font-gt-walsheim-prolight)] text-[#F1F4F1] no-underline transition-opacity duration-300 hover:opacity-70 inline-block w-fit"
+              >
+                Meeting Spaces
+              </Link>
+              <Link
+                href="/event-space/"
+                className="nav-link text-[15px] font-[family-name:var(--font-gt-walsheim-prolight)] text-[#F1F4F1] no-underline transition-opacity duration-300 hover:opacity-70 inline-block w-fit"
+              >
+                Event Spaces
+              </Link>
             </div>
             <div className="flex flex-col gap-[10px] mb-[24px]">
               <Link
@@ -39,12 +57,6 @@ export default function Footer() {
                 className="nav-link text-[14px] font-[family-name:var(--font-gt-walsheim-prolight)] text-[#F1F4F1] no-underline transition-opacity duration-300 hover:opacity-70 inline-block w-fit"
               >
                 About MPS
-              </Link>
-              <Link
-                href="/contact-us/"
-                className="nav-link text-[14px] font-[family-name:var(--font-gt-walsheim-prolight)] text-[#F1F4F1] no-underline transition-opacity duration-300 hover:opacity-70 inline-block w-fit"
-              >
-                Contact Us
               </Link>
               <Link
                 href="/contact-us/"
@@ -149,6 +161,14 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-[20px] md:gap-[30px]">
             <div className="flex items-center gap-[8px] opacity-50">
               <span className="text-[14px] font-[family-name:var(--font-gt-walsheim-prolight)]">Marrakech Property Service</span>
+            </div>
+            <div className="flex flex-col gap-[4px] opacity-50">
+              <p className="text-[12px] font-[family-name:var(--font-gt-walsheim-prolight)] text-white/60">
+                Route de Ouarzazate, Marrakech 40000, Morocco
+              </p>
+              <p className="text-[12px] font-[family-name:var(--font-gt-walsheim-prolight)] text-white/60">
+                +212 6 21 18 94 96 | info@marrakechpropertyservice.com
+              </p>
             </div>
             <div className="flex gap-[20px] md:gap-[28px] items-center opacity-60">
               <img src="/images/misc/airbnb.svg" alt="Airbnb" className="h-[26px] md:h-[30px] w-auto" />

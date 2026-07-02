@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Enquire about luxury properties and concierge services with Marrakech Property Service.",
   openGraph: {
-    title: "Enquire | Marrakech Property Service",
+  title: "Enquire",
     description: "Enquire about luxury properties and concierge services with MPS.",
     url: "https://www.marrakechpropertyservice.com/enquire/",
   },

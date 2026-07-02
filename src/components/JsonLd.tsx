@@ -38,6 +38,22 @@ export default function JsonLd() {
         "@type": "City",
         name: "Marrakech",
       },
+      {
+        "@type": "Neighborhood",
+        name: "Palmeraie",
+      },
+      {
+        "@type": "Neighborhood",
+        name: "Medina",
+      },
+      {
+        "@type": "Neighborhood",
+        name: "Hivernage",
+      },
+      {
+        "@type": "Neighborhood",
+        name: "Guéliz",
+      },
     ],
     serviceType: [
       "Property Management",

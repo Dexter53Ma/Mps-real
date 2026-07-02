@@ -72,6 +72,7 @@ export default function TestimonialsSection() {
               "@type": "Person",
               name: testimonial.author,
             },
+            datePublished: "2024-06-15",
             reviewRating: {
               "@type": "Rating",
               ratingValue: "5",

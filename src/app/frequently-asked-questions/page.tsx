@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Frequently Asked Questions | Marrakech Property Service",
   description: "Everything you need to know about our luxury properties and concierge services in Marrakech.",
   openGraph: {
-    title: "Frequently Asked Questions | Marrakech Property Service",
+  title: "Frequently Asked Questions",
     description: "Everything you need to know about our luxury properties and concierge services in Marrakech.",
     url: "https://www.marrakechpropertyservice.com/frequently-asked-questions/",
   },

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Access premium concierge services and exclusive experiences with MPS Club membership in Marrakech.",
   openGraph: {
-    title: "MPS Club | Marrakech Property Service",
+  title: "MPS Club",
     description: "Access premium concierge services and exclusive experiences with MPS Club membership.",
     url: "https://www.marrakechpropertyservice.com/storey-club/",
   },

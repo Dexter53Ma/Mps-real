@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "About MPS | Marrakech Property Management",
   description: "Specialized property management for villas, riads, and apartments in Marrakech. We handle Airbnb, Booking.com, cleaning, maintenance, and guest support.",
   openGraph: {
-    title: "About MPS | Marrakech Property Management",
+  title: "About MPS",
     description: "Specialized property management for villas, riads, and apartments in Marrakech.",
     url: "https://www.marrakechpropertyservice.com/about-mps/",
   },

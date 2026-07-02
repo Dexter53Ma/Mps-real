@@ -30,6 +30,17 @@ export const metadata: Metadata = {
     url: "https://www.marrakechpropertyservice.com",
     siteName: "Marrakech Property Service",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   verification: {
     google: "0RD8ybrQpiCMgR9Wj37C-4Elr37AO5lF5AJLhoZ9ygs",
   },

@@ -18,9 +18,9 @@ export default function AboutSustainability() {
 
       <div className="relative z-10 h-full flex flex-col justify-end pb-[40px] sm:pb-[60px] md:pb-[80px] px-[24px] md:px-[40px] lg:px-[60px] xl:px-[80px]">
         <div className="max-w-[800px]">
-          <h1 className="text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[64px] xl:text-[80px] font-[family-name:var(--font-gt-walsheim-medium)] leading-[1.05] tracking-tight mb-[20px] md:mb-[32px]">
+          <h2 className="text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[64px] xl:text-[80px] font-[family-name:var(--font-gt-walsheim-medium)] leading-[1.05] tracking-tight mb-[20px] md:mb-[32px]">
             Sustainability at MPS
-          </h1>
+          </h2>
           <div className="flex flex-col gap-[16px] md:gap-[24px] mb-[24px] md:mb-[32px]">
             <p className="text-white text-[14px] md:text-[16px] font-[family-name:var(--font-gt-walsheim-prolight)] leading-[1.5] opacity-90">
               Pioneering luxury properties need sustainable practices – and across all our Marrakech properties, MPS has set new standards and won recognition for sustainable design and construction across new and renovated buildings.
@@ -33,9 +33,7 @@ export default function AboutSustainability() {
             </p>
           </div>
           <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/sustainability/"
             className="btn-hover inline-flex items-center justify-center border border-[#FBEFDD] text-[#FBEFDD] text-[13px] md:text-[14px] font-[family-name:var(--font-gt-walsheim-prolight)] px-[20px] md:px-[24px] py-[10px] md:py-[12px] min-h-[44px] rounded-[6px] no-underline hover:bg-[#FBEFDD] hover:text-[#274038] transition-all"
           >
             Find out more

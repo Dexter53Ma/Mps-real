@@ -13,7 +13,7 @@ import ContactCTA from "@/components/ContactCTA";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Marrakech Property Service | Luxury Property Management & Conciergerie",
+  title: "Luxury Property Management & Conciergerie in Marrakech",
   description:
     "Full-service property management for villas, riads, and apartments in Marrakech. Airbnb & Booking.com optimization, professional photography, cleaning, maintenance, and 24/7 guest support.",
   openGraph: {

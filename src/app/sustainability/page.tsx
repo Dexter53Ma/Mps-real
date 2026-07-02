@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Our commitment to sustainable luxury property management in Marrakech.",
   openGraph: {
-    title: "Sustainability | Marrakech Property Service",
+  title: "Sustainability",
     description: "Our commitment to sustainable luxury property management in Marrakech.",
     url: "https://www.marrakechpropertyservice.com/sustainability/",
   },

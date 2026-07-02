@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Explore our premium property locations across Marrakech's most exclusive neighborhoods.",
   openGraph: {
-    title: "Locations | Marrakech Property Service",
+  title: "Locations",
     description: "Explore our premium property locations across Marrakech's most exclusive neighborhoods.",
     url: "https://www.marrakechpropertyservice.com/locations/",
   },
@@ -39,26 +39,29 @@ export default function LocationsPage() {
         {/* Locations Grid */}
         <section className="bg-white py-[80px] md:py-[120px] px-[24px] md:px-[40px] lg:px-[60px]">
           <div className="max-w-[1356px] mx-auto">
+            <h2 className="text-[36px] md:text-[48px] font-medium leading-[1.1] tracking-tight text-[#1A171A] mb-[40px]">
+              Explore Marrakech&apos;s Best Neighborhoods
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[24px]">
               {[
                 {
                   name: "Palmeraie",
-                  description: "Exclusive resort area with luxury villas and world-class amenities. Perfect for those seeking privacy and tranquility.",
+                  description: "Exclusive resort area with luxury villas and world-class amenities. The Palmeraie is one of Marrakech&apos;s most prestigious neighborhoods, offering expansive properties with private pools, lush gardens, and stunning Atlas Mountain views. Perfect for those seeking privacy and tranquility.",
                   properties: "15+ properties",
                 },
                 {
                   name: "Medina",
-                  description: "Historic heart of Marrakech with traditional riads and authentic charm. Immerse yourself in Moroccan culture.",
+                  description: "Historic heart of Marrakech with traditional riads and authentic charm. The UNESCO-listed Medina features narrow winding streets, bustling souks, and beautifully restored riads with interior courtyards. Immerse yourself in Moroccan culture while staying in a piece of living history.",
                   properties: "12+ properties",
                 },
                 {
                   name: "Hivernage",
-                  description: "Modern luxury district with contemporary apartments and premium facilities. Ideal for the modern lifestyle.",
+                  description: "Modern luxury district with contemporary apartments and premium facilities. Hivernage is Marrakech&apos;s upscale modern quarter, home to five-star hotels, fine dining restaurants, and sleek residential complexes. Ideal for the modern lifestyle with easy access to the Medina.",
                   properties: "10+ properties",
                 },
                 {
                   name: "Guéliz",
-                  description: "Modern Marrakech with easy access to shops, restaurants and cultural attractions. Perfect for urban living.",
+                  description: "Modern Marrakech with easy access to shops, restaurants and cultural attractions. Guéliz is the city&apos;s vibrant new town, offering a cosmopolitan lifestyle with tree-lined boulevards, art galleries, and a thriving café culture. Perfect for urban living.",
                   properties: "8+ properties",
                 },
               ].map((location) => (
@@ -66,14 +69,39 @@ export default function LocationsPage() {
                   key={location.name}
                   className="bg-[#FBEFDD] rounded-[9px] p-[32px] md:p-[40px] hover:bg-[#F5D6AB] transition-colors"
                 >
-                  <h2 className="text-[28px] md:text-[32px] font-medium text-[#1A171A] mb-[12px]">
+                  <h3 className="text-[28px] md:text-[32px] font-medium text-[#1A171A] mb-[12px]">
                     {location.name}
-                  </h2>
+                  </h3>
                   <p className="text-[16px] text-[#1A171A]/80 mb-[16px] leading-[1.6]">
                     {location.description}
                   </p>
                   <p className="text-[14px] text-[#1A171A]/60 uppercase tracking-[0.1em]">
                     {location.properties}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Why Choose Our Locations */}
+        <section className="bg-[#FBEFDD] py-[80px] md:py-[120px] px-[24px] md:px-[40px] lg:px-[60px]">
+          <div className="max-w-[1356px] mx-auto">
+            <h2 className="text-[36px] md:text-[48px] font-medium leading-[1.1] tracking-tight text-[#1A171A] mb-[40px]">
+              Why Location Matters
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-[24px]">
+              {[
+                { title: "Rental Yield", description: "Properties in prime locations like the Palmeraie and Hivernage command higher nightly rates and maintain strong occupancy rates year-round." },
+                { title: "Lifestyle", description: "Each neighborhood offers a distinct living experience — from the cultural immersion of the Medina to the modern convenience of Guéliz." },
+                { title: "Investment Growth", description: "Marrakech&apos;s real estate market continues to grow, with premium locations offering the strongest appreciation potential for property investors." },
+              ].map((item) => (
+                <div key={item.title} className="bg-white rounded-[9px] p-[32px]">
+                  <h3 className="text-[20px] font-medium text-[#1A171A] mb-[8px]">
+                    {item.title}
+                  </h3>
+                  <p className="text-[14px] text-[#1A171A]/70 leading-[1.6]">
+                    {item.description}
                   </p>
                 </div>
               ))}

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "A collection of updates from our team and experienced partners in Marrakech. News, insights, and property management tips.",
   openGraph: {
-    title: "Our Latest MPS | Marrakech Property Service",
+  title: "Our Latest MPS",
     description: "A collection of updates from our team and experienced partners in Marrakech.",
     url: "https://www.marrakechpropertyservice.com/our-latest-storey/",
   },
